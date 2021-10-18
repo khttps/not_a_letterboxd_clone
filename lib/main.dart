@@ -20,6 +20,9 @@ class NotLetterboxdApp extends StatelessWidget {
         dividerColor: Palette.divider,
         indicatorColor: Palette.boxdGreen,
         canvasColor: Palette.scaffold,
+        textTheme: const TextTheme(
+          bodyText2: TextStyle(color: Palette.text),
+        ),
         tabBarTheme: const TabBarTheme(
           labelPadding: EdgeInsets.zero,
         ),

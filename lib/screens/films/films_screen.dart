@@ -16,7 +16,7 @@ class FilmsScreen extends StatelessWidget {
           crossAxisCount: 4,
           mainAxisSpacing: 4.0,
           crossAxisSpacing: 4.0,
-          childAspectRatio: 0.66,
+          childAspectRatio: 0.7,
         ),
         itemBuilder: (BuildContext context, int index) {
           return FilmItem(
