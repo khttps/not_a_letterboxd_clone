@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:not_a_letterboxd_clone/screens/screens.dart';
+import 'package:not_a_letterboxd_clone/widgets/widgets.dart';
 
 class PopularScreen extends StatefulWidget {
   const PopularScreen({Key? key}) : super(key: key);
@@ -11,10 +13,10 @@ class _PopularScreenState extends State<PopularScreen> {
   int _selectedIndex = 0;
 
   final _tabs = const {
-    'FILMS': Scaffold(),
-    'REVIEWS': Scaffold(),
-    'LISTS': Scaffold(),
-    'NEWS': Scaffold(),
+    'FILMS': FilmsScreen(),
+    'REVIEWS': ReviewsScreen(),
+    'LISTS': ListsScreen(),
+    'NEWS': NewsScreen(),
   };
 
   @override
@@ -38,7 +40,7 @@ class _PopularScreenState extends State<PopularScreen> {
             ),
           ),
         ),
-        drawer: const Drawer(),
+        drawer: const MainDrawer(),
         body: IndexedStack(
           index: _selectedIndex,
           children: _tabs.values.toList(),

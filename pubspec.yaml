@@ -9,16 +9,35 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  cached_network_image: ^3.1.0
+  cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.2
+  material_design_icons_flutter: ^5.0.6295
 
 dev_dependencies:
+  
+  flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^1.0.0
-
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: Graphik
+      fonts:
+        - asset: assets/fonts/GraphikRegular.otf
+        - asset: assets/fonts/GraphikBlack.otf
+          weight: 900
+        - asset: assets/fonts/GraphikBold.otf
+          weight: 700
+        - asset: assets/fonts/GraphikSemiBold.otf
+          weight: 600
+        - asset: assets/fonts/GraphikLight.otf
+          weight: 300
+        - asset: assets/fonts/GraphikExtraLight.otf
+          weight: 100

@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:not_a_letterboxd_clone/core/palette.dart';
 import 'screens/screens.dart';
@@ -17,9 +15,11 @@ class NotLetterboxdApp extends StatelessWidget {
       title: 'Not Letterboxd',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Graphik',
         scaffoldBackgroundColor: Palette.scaffold,
         dividerColor: Palette.divider,
         indicatorColor: Palette.boxdGreen,
+        canvasColor: Palette.scaffold,
         tabBarTheme: const TabBarTheme(
           labelPadding: EdgeInsets.zero,
         ),
