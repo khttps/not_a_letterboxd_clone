@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:not_a_letterboxd_clone/core/palette.dart';
+import 'package:not_a_letterboxd_clone/widgets/widgets.dart';
 
 class ReviewItem extends StatelessWidget {
   final String title;
@@ -76,11 +77,19 @@ class ReviewItem extends StatelessWidget {
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  CachedNetworkImage(
-                    imageUrl: imageUrl!,
-                    width: 84.0,
-                    height: 120.0,
-                    fit: BoxFit.cover,
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        width: 0.5,
+                        color: Palette.border,
+                      ),
+                    ),
+                    child: CachedNetworkImage(
+                      imageUrl: imageUrl!,
+                      width: 84.0,
+                      height: 120.0,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                   const SizedBox(width: 16.0),
                   Expanded(
@@ -98,28 +107,10 @@ class ReviewItem extends StatelessWidget {
         ),
         Positioned(
           top: 12.0,
-          right: 12.0,
-          child: Row(
-            children: [
-              Text(
-                user,
-                style: const TextStyle(
-                  fontWeight: FontWeight.w600,
-                  color: Palette.primary,
-                ),
-              ),
-              const SizedBox(width: 8.0),
-              CircleAvatar(
-                radius: 18.0,
-                backgroundColor: Palette.border,
-                child: CircleAvatar(
-                  radius: 17.5,
-                  backgroundImage: CachedNetworkImageProvider(
-                    userAvatarUrl!,
-                  ),
-                ),
-              ),
-            ],
+          right: 0.0,
+          child: UserCard(
+            user: user,
+            avatarUrl: userAvatarUrl,
           ),
         ),
       ],

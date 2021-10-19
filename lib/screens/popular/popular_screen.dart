@@ -32,17 +32,24 @@ class _PopularScreenState extends State<PopularScreen> {
               onPressed: () {},
             ),
           ],
-          bottom: TabBar(
-            tabs: _tabs.keys.map((e) => Tab(text: e)).toList(),
-            indicatorPadding: EdgeInsets.zero,
-            onTap: (index) => setState(
-              () => _selectedIndex = index,
+          bottom: PreferredSize(
+            preferredSize: const Size.fromHeight(50.0),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: TabBar(
+                isScrollable: true,
+                tabs: _tabs.keys.map((e) => Tab(text: e)).toList(),
+                indicatorPadding: EdgeInsets.zero,
+                onTap: (index) => setState(
+                  () => _selectedIndex = index,
+                ),
+              ),
             ),
           ),
         ),
         drawer: const MainDrawer(),
-        body: IndexedStack(
-          index: _selectedIndex,
+        body: TabBarView(
+          // index: _selectedIndex,
           children: _tabs.values.toList(),
         ),
       ),
