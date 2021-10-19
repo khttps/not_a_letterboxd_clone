@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:not_a_letterboxd_clone/core/palette.dart';
+import '../core/palette.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({Key? key}) : super(key: key);
@@ -19,7 +19,7 @@ class MainDrawer extends StatelessWidget {
                 child: Theme(
                   data: ThemeData(dividerColor: Colors.transparent),
                   child: DrawerHeader(
-                    margin: const EdgeInsets.symmetric(horizontal: 36.0),
+                    margin: const EdgeInsets.symmetric(horizontal: 40.0),
                     child: Image.asset('assets/images/drawer_header.png'),
                   ),
                 ),
@@ -34,6 +34,7 @@ class MainDrawer extends StatelessWidget {
                 label: 'Search',
                 onTap: () {},
               ),
+              const Divider(color: Palette.darkGrey, height: 0.0),
               _DrawerItem(
                 icon: MdiIcons.accountLock,
                 label: 'Sign in',
@@ -49,6 +50,7 @@ class MainDrawer extends StatelessWidget {
                 label: 'Open tour',
                 onTap: () {},
               ),
+              const Divider(color: Palette.darkGrey, height: 0.0),
             ],
           ),
         ),
@@ -58,29 +60,32 @@ class MainDrawer extends StatelessWidget {
 }
 
 class _DrawerItem extends StatelessWidget {
-  final IconData icon;
+  final IconData? icon;
   final String label;
-  final Function() onTap;
+  final Function()? onTap;
   const _DrawerItem({
-    required this.icon,
+    this.icon,
     required this.label,
-    required this.onTap,
+    this.onTap,
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      visualDensity: VisualDensity.compact,
-      leading: Icon(
-        icon,
-        color: Palette.border,
-      ),
+      dense: true,
+      leading: icon == null
+          ? null
+          : Icon(
+              icon,
+              color: Palette.border,
+            ),
       title: Text(
         label,
         style: const TextStyle(
           fontSize: 16.0,
           color: Colors.white,
+          fontWeight: FontWeight.w400,
         ),
       ),
       onTap: onTap,

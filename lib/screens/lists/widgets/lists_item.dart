@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/widgets/widgets.dart';
+import '../../../widgets/widgets.dart';
 
 class ListsItem extends StatelessWidget {
   final String listName;
@@ -22,7 +22,7 @@ class ListsItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8.0),
+      padding: const EdgeInsets.symmetric(vertical: 16.0),
       child: Column(
         children: [
           Padding(
@@ -70,7 +70,7 @@ class _List extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 100.0,
+      height: 85.0,
       child: ListView.builder(
         itemCount: filmsPostersUrls.length,
         shrinkWrap: true,
@@ -78,8 +78,8 @@ class _List extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         itemBuilder: (context, index) => CachedNetworkImage(
           imageUrl: filmsPostersUrls[index]!,
-          width: 70.0,
-          height: 100.0,
+          width: 59.5,
+          height: 85.0,
           fit: BoxFit.cover,
         ),
       ),

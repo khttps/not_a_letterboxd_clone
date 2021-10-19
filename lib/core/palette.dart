@@ -8,4 +8,5 @@ class Palette {
   static const border = Color(0xff586673);
   static const boxdGreen = Color(0xff00e054);
   static const boxdOrange = Color(0xffff7f00);
+  static const darkGrey = Color(0xFF283138);
 }

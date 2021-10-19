@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/screens/screens.dart';
-import 'package:not_a_letterboxd_clone/widgets/widgets.dart';
+import '../screens.dart';
+import '../../widgets/widgets.dart';
 
 class PopularScreen extends StatefulWidget {
   const PopularScreen({Key? key}) : super(key: key);
@@ -10,7 +10,7 @@ class PopularScreen extends StatefulWidget {
 }
 
 class _PopularScreenState extends State<PopularScreen> {
-  int _selectedIndex = 0;
+  //int _selectedIndex = 0;
 
   final _tabs = const {
     'FILMS': FilmsScreen(),
@@ -25,7 +25,12 @@ class _PopularScreenState extends State<PopularScreen> {
       length: _tabs.length,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Popular'),
+          title: const Text(
+            'Popular',
+            style: TextStyle(
+              fontWeight: FontWeight.w600,
+            ),
+          ),
           actions: [
             IconButton(
               icon: const Icon(Icons.search),
@@ -40,9 +45,9 @@ class _PopularScreenState extends State<PopularScreen> {
                 isScrollable: true,
                 tabs: _tabs.keys.map((e) => Tab(text: e)).toList(),
                 indicatorPadding: EdgeInsets.zero,
-                onTap: (index) => setState(
-                  () => _selectedIndex = index,
-                ),
+                // onTap: (index) => setState(
+                //   () => _selectedIndex = index,
+                // ),
               ),
             ),
           ),

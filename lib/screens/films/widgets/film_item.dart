@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/core/palette.dart';
+import '../../../core/palette.dart';
 
 class FilmItem extends StatelessWidget {
   final String imageUrl;

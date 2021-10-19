@@ -21,6 +21,6 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
     - All auth related pages
     - All user related pages
 
-### Libraries Used:
+### Libraries used:
 
-### Project Structure:
+### Project structure:

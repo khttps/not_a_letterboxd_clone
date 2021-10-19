@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../widgets/widgets.dart';
 import 'widgets/film_item.dart';
 
 class FilmsScreen extends StatelessWidget {
@@ -6,7 +7,7 @@ class FilmsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RefreshIndicator(
+    return MainRefreshIndicator(
       onRefresh: () async {},
       child: GridView.builder(
         itemCount: 25,

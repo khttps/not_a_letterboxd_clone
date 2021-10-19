@@ -16,7 +16,6 @@ dependencies:
   material_design_icons_flutter: ^5.0.6295
 
 dev_dependencies:
-  
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
@@ -30,14 +29,21 @@ flutter:
   fonts:
     - family: Graphik
       fonts:
-        - asset: assets/fonts/GraphikRegular.otf
-        - asset: assets/fonts/GraphikBlack.otf
+        - asset: assets/fonts/GraphikSuper.otf
           weight: 900
+        - asset: assets/fonts/GraphikBlack.otf
+          weight: 800
         - asset: assets/fonts/GraphikBold.otf
           weight: 700
-        - asset: assets/fonts/GraphikSemiBold.otf
+        - asset: assets/fonts/GraphikSemibold.otf
           weight: 600
+        - asset: assets/fonts/GraphikMedium.otf
+          weight: 500
+        - asset: assets/fonts/GraphikRegular.otf
+          weight: 400
         - asset: assets/fonts/GraphikLight.otf
           weight: 300
-        - asset: assets/fonts/GraphikExtraLight.otf
+        - asset: assets/fonts/GraphikExtralight.otf
+          weight: 200
+        - asset: assets/fonts/GraphikThin.otf
           weight: 100

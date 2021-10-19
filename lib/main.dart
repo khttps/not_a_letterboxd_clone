@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/core/palette.dart';
+import 'core/palette.dart';
 import 'screens/screens.dart';
 
 void main() {
@@ -21,10 +21,15 @@ class NotLetterboxdApp extends StatelessWidget {
         indicatorColor: Palette.boxdGreen,
         canvasColor: Palette.scaffold,
         textTheme: const TextTheme(
-          bodyText2: TextStyle(color: Palette.text, fontFamily: 'Graphik'),
+          bodyText2: TextStyle(
+            color: Palette.text,
+            fontWeight: FontWeight.w300,
+          ),
         ),
         tabBarTheme: const TabBarTheme(
-          labelPadding: EdgeInsets.symmetric(vertical: 4.0, horizontal: 14.0),
+          labelPadding: EdgeInsets.symmetric(horizontal: 14.0),
+          labelStyle: TextStyle(fontWeight: FontWeight.w500),
+          unselectedLabelStyle: TextStyle(fontWeight: FontWeight.w500),
         ),
         appBarTheme: const AppBarTheme(
           backgroundColor: Palette.primary,

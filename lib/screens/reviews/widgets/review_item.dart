@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/core/palette.dart';
-import 'package:not_a_letterboxd_clone/widgets/widgets.dart';
+import '../../../core/palette.dart';
+import '../../../widgets/widgets.dart';
 
 class ReviewItem extends StatelessWidget {
   final String title;
@@ -44,7 +44,7 @@ class ReviewItem extends StatelessWidget {
                     text: title,
                     style: const TextStyle(
                       fontSize: 20.0,
-                      fontWeight: FontWeight.w600,
+                      fontWeight: FontWeight.w700,
                     ),
                     children: [
                       TextSpan(
@@ -52,7 +52,7 @@ class ReviewItem extends StatelessWidget {
                         style: const TextStyle(
                           color: Palette.text,
                           fontSize: 14.0,
-                          fontWeight: FontWeight.normal,
+                          fontWeight: FontWeight.w300,
                         ),
                       )
                     ],
@@ -86,8 +86,8 @@ class ReviewItem extends StatelessWidget {
                     ),
                     child: CachedNetworkImage(
                       imageUrl: imageUrl!,
-                      width: 84.0,
-                      height: 120.0,
+                      width: 70.0,
+                      height: 100.0,
                       fit: BoxFit.cover,
                     ),
                   ),
