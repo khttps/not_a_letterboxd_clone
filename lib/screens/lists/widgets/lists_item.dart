@@ -1,20 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import '/models/models.dart';
 import '../../../widgets/widgets.dart';
 
 class ListsItem extends StatelessWidget {
-  final String listName;
-  final String username;
-  final String? userAvatarUrl;
-  final List<String?> filmsPostersUrls;
-  final String listDescription;
+  final Filmlist list;
   final Function() onTap;
   const ListsItem({
-    required this.listName,
-    required this.username,
-    this.userAvatarUrl,
-    required this.filmsPostersUrls,
-    required this.listDescription,
+    required this.list,
     required this.onTap,
     Key? key,
   }) : super(key: key);
@@ -31,24 +24,24 @@ class ListsItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  listName,
+                  list.name,
                   style: const TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.w600,
                     color: Colors.white,
                   ),
                 ),
-                UserCard(user: username, avatarUrl: userAvatarUrl),
+                UserCard(user: list.username, avatarUrl: list.userAvatarUrl),
               ],
             ),
           ),
           const SizedBox(height: 10.0),
-          _List(filmsPostersUrls: filmsPostersUrls),
+          _List(filmsPostersUrls: list.films.map((e) => e.posterUrl).toList()),
           const SizedBox(height: 10.0),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Text(
-              listDescription,
+              list.description ?? '',
               style: const TextStyle(fontSize: 14.0, height: 1.2),
               maxLines: 7,
               overflow: TextOverflow.ellipsis,

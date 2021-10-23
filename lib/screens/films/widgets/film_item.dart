@@ -1,12 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import '/models/models.dart';
 import '../../../core/palette.dart';
 
 class FilmItem extends StatelessWidget {
-  final String imageUrl;
+  final Film film;
   final Function() onTap;
   const FilmItem({
-    required this.imageUrl,
+    required this.film,
     required this.onTap,
     Key? key,
   }) : super(key: key);
@@ -23,10 +24,18 @@ class FilmItem extends StatelessWidget {
           ),
         ),
         child: CachedNetworkImage(
-          imageUrl: imageUrl,
+          imageUrl: film.posterUrl ?? '',
+          errorWidget: (c, u, e) => _buildErrorWidget(),
           fit: BoxFit.cover,
         ),
       ),
     );
   }
+
+  _buildErrorWidget() => Center(
+        child: Text(
+          film.title,
+          style: const TextStyle(fontSize: 10.0),
+        ),
+      );
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:not_a_letterboxd_clone/models/models.dart';
 import '../../widgets/widgets.dart';
 import 'widgets/film_item.dart';
 
@@ -21,11 +22,18 @@ class FilmsScreen extends StatelessWidget {
         ),
         itemBuilder: (BuildContext context, int index) {
           return FilmItem(
-            imageUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
+            film: _film(index),
             onTap: () {},
           );
         },
       ),
     );
   }
+
+  _film(int index) => Film(
+        id: index,
+        title: 'Dune',
+        year: '2021',
+        posterUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
+      );
 }

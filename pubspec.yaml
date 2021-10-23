@@ -11,8 +11,10 @@ environment:
 dependencies:
   cached_network_image: ^3.1.0
   cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
   flutter:
     sdk: flutter
+  flutter_bloc: ^7.3.1
   material_design_icons_flutter: ^5.0.6295
 
 dev_dependencies:

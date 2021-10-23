@@ -1,25 +1,14 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:not_a_letterboxd_clone/models/models.dart';
 import '../../../core/palette.dart';
 import '../../../widgets/widgets.dart';
 
 class ReviewItem extends StatelessWidget {
-  final String title;
-  final String year;
-  final double score;
-  final String? imageUrl;
-  final String reviewText;
-  final String user;
-  final String? userAvatarUrl;
+  final Review review;
   final Function() onTap;
   const ReviewItem({
-    required this.title,
-    required this.year,
-    required this.score,
-    required this.reviewText,
-    required this.user,
-    this.imageUrl,
-    this.userAvatarUrl,
+    required this.review,
     required this.onTap,
     Key? key,
   }) : super(key: key);
@@ -41,14 +30,14 @@ class ReviewItem extends StatelessWidget {
                 width: MediaQuery.of(context).size.width / 2,
                 child: RichText(
                   text: TextSpan(
-                    text: title,
+                    text: review.film.title,
                     style: const TextStyle(
                       fontSize: 20.0,
                       fontWeight: FontWeight.w700,
                     ),
                     children: [
                       TextSpan(
-                        text: ' $year',
+                        text: ' ${review.film.year}',
                         style: const TextStyle(
                           color: Palette.text,
                           fontSize: 14.0,
@@ -61,18 +50,19 @@ class ReviewItem extends StatelessWidget {
               ),
               const SizedBox(height: 2.0),
               // Stars generated based on review score
-              Row(
-                children: List.generate(
-                  score.ceil(),
-                  (index) => Icon(
-                    (index + 1 - score == 0.5)
-                        ? Icons.star_half_rounded
-                        : Icons.star_rounded,
-                    color: Palette.boxdGreen,
-                    size: 14.0,
+              if (review.score != null)
+                Row(
+                  children: List.generate(
+                    review.score!.ceil(),
+                    (index) => Icon(
+                      (index + 1 - review.score! == 0.5)
+                          ? Icons.star_half_rounded
+                          : Icons.star_rounded,
+                      color: Palette.boxdGreen,
+                      size: 14.0,
+                    ),
                   ),
                 ),
-              ),
               const SizedBox(height: 10.0),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -85,7 +75,8 @@ class ReviewItem extends StatelessWidget {
                       ),
                     ),
                     child: CachedNetworkImage(
-                      imageUrl: imageUrl!,
+                      imageUrl: review.film.posterUrl ?? '',
+                      errorWidget: (c, u, e) => _buildErrorWidget(),
                       width: 70.0,
                       height: 100.0,
                       fit: BoxFit.cover,
@@ -94,7 +85,7 @@ class ReviewItem extends StatelessWidget {
                   const SizedBox(width: 16.0),
                   Expanded(
                     child: Text(
-                      reviewText,
+                      review.text ?? '',
                       style: const TextStyle(fontSize: 14.0, height: 1.2),
                       maxLines: 6,
                       overflow: TextOverflow.ellipsis,
@@ -109,11 +100,18 @@ class ReviewItem extends StatelessWidget {
           top: 12.0,
           right: 0.0,
           child: UserCard(
-            user: user,
-            avatarUrl: userAvatarUrl,
+            user: review.username,
+            avatarUrl: review.userAvatarUrl,
           ),
         ),
       ],
     );
   }
+
+  _buildErrorWidget() => Center(
+        child: Text(
+          review.film.title,
+          style: const TextStyle(fontSize: 10.0),
+        ),
+      );
 }

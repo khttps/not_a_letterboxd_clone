@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:not_a_letterboxd_clone/models/models.dart';
 import 'widgets/news_item.dart';
 import '../../widgets/widgets.dart';
 
@@ -15,9 +16,13 @@ class NewsScreen extends StatelessWidget {
         separatorBuilder: (c, i) => const SizedBox(height: 12.0),
         itemBuilder: (context, index) {
           return NewsItem(
-            title: 'Breaking News',
-            imageUrl: 'https://i.imgur.com/s6LDJvH.jpeg',
-            description: 'Avatar ${index + 2} has been delayed, again',
+            news: News(
+              id: index,
+              headline: 'Breaking News',
+              imageUrl: 'https://i.imgur.com/s6LDJvH.jpeg',
+              description: 'Avatar ${index + 2} has been delayed, again',
+            ),
+            onTap: () {},
           );
         },
       ),
