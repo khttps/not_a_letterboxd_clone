@@ -4,33 +4,34 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
 
 ### Screens implemented:
 
-    - Tabs page
-    - Drawer (Dummy options)
+- Tabs page
+- Drawer (Dummy options)
 
 ### Screens to implement:
 
-    - Films page
-    - Reviews page
-    - Lists page
-    - News page (Dummy Page since the TMDB API doesn't feature a news endpoint)
+- Films page
+- Reviews page
+- Lists page
+- News page (Dummy Page since the TMDB API doesn't feature a news endpoint)
 
 ### Screens that I most likely won't be implementing but who knows:
 
-    - Film page
-    - Cast and Crew pages
-    - Search page
-    - All auth related pages
-    - All user related pages
+- Film page
+- Cast and Crew pages
+- Search page
+- All auth related pages
+- All user related pages
 
 ### Libraries used:
 
-    - [cached_network_image](https://pub.dev/packages/cached_network_image)
-    - [equatable](https://pub.dev/packages/flutter_bloc)
-    - [flutter_bloc](https://pub.dev/packages/equatable)
-    - [material_design_icons_flutter](https://pub.dev/packages/material_design_icons_flutter)
+- [cached_network_image](https://pub.dev/packages/cached_network_image)
+- [equatable](https://pub.dev/packages/flutter_bloc)
+- [flutter_bloc](https://pub.dev/packages/equatable)
+- [get_it](https://pub.dev/packages/get_it)
+- [material_design_icons_flutter](https://pub.dev/packages/material_design_icons_flutter)
 
 ### Resources used:
 
-    - Graphik font
+- Graphik font
 
 #### [TMDB API](https://developers.themoviedb.org/3)
