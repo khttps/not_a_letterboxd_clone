@@ -1,15 +1,15 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:not_a_letterboxd_clone/models/models.dart';
-import 'package:not_a_letterboxd_clone/repositories/film_repository.dart';
-import 'package:not_a_letterboxd_clone/service/exception/internet_exception.dart';
+import '../../../models/models.dart';
+import '../../../repositories/repositories.dart';
+import '../../../service/exception/internet_exception.dart';
 
 part 'films_event.dart';
 part 'films_state.dart';
 
-class FilmBloc extends Bloc<FilmsEvent, FilmsState> {
+class FilmsBloc extends Bloc<FilmsEvent, FilmsState> {
   final FilmRepository _repository;
-  FilmBloc({
+  FilmsBloc({
     required FilmRepository repository,
   })  : _repository = repository,
         super(FilmsInitial()) {
