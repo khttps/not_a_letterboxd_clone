@@ -16,5 +16,167 @@
                 "poster_path" : ""
             }
         ]
+    },
+    {
+        "id" : 2,
+        "name" : "Romance Movies",
+        "description" : "Movies about love and whatever",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "name" : "Thriller/Horror Movies",
+        "description" : "This is some scary stuff",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "name" : "2021 Films Ranked",
+        "description" : "Top Rated based on my opinion",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },    
+    {
+        "id" : 5,
+        "name" : "Book Adaptations",
+        "description" : "My favorite book adaptations",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },    
+    {
+        "id" : 6,
+        "name" : "Capeshit",
+        "description" : "capeshit",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },    
+    {
+        "id" : 7,
+        "name" : "French movies",
+        "description" : "French noir, arthouse cinema",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },    
+    {
+        "id" : 8,
+        "name" : "Kubrick Ranked",
+        "description" : "i'm monky",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },    
+    {
+        "id" : 9,
+        "name" : "The Emoji movie",
+        "description" : "",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    },    
+    {
+        "id" : 10,
+        "name" : "Most Anticipated",
+        "description" : "This is some scary stuff",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
     }
 ]
