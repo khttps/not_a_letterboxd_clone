@@ -2,6 +2,8 @@
 
 This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it. I'm making it for educational purposes. I'm using the TMDB API for film data, since the Letterboxd API is still private. I won't be implementing authentication, this is just what the app looks like to a guest or a logged out user.
 
+### Screenshots
+
 ### Screens implemented:
 
 - Tabs page
@@ -34,6 +36,6 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
 
 ### Resources used:
 
-- Graphik font
+- [Graphik font](http://www.christianschwartz.com/graphik.shtml)
 
 #### [TMDB API](https://developers.themoviedb.org/3)

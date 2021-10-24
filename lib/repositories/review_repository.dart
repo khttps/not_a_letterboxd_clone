@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:not_a_letterboxd_clone/models/models.dart';
+import '../models/models.dart';
 
 abstract class BaseReviewRepository {
   Future<List<Review>> getReviews({required int page});

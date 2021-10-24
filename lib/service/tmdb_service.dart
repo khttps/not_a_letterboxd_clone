@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:not_a_letterboxd_clone/models/models.dart';
+import '../models/models.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'exception/internet_exception.dart';
 

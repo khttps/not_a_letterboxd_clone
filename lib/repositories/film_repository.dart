@@ -1,15 +1,17 @@
-import 'package:not_a_letterboxd_clone/service/tmdb_service.dart';
-import 'package:not_a_letterboxd_clone/models/models.dart';
+import '../service/tmdb_service.dart';
+import '../models/models.dart';
 
 abstract class BaseFilmRepository {
   Future<List<Film>> getFilms({required int page});
 }
 
 class FilmRepository implements BaseFilmRepository {
-  final BaseTMDBService service;
-  const FilmRepository({required this.service});
+  final BaseTMDBService _service;
+  const FilmRepository({
+    required BaseTMDBService service,
+  }) : _service = service;
 
   @override
   Future<List<Film>> getFilms({required int page}) =>
-      service.getFilms(page: page);
+      _service.getFilms(page: page);
 }

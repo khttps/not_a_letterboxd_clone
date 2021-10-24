@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/models/models.dart';
+import '../../models/models.dart';
 import 'widgets/review_item.dart';
 import '../../widgets/widgets.dart';
 

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/models/models.dart';
+import '../models/models.dart';
 import '../core/palette.dart';
 
 class UserCard extends StatelessWidget {
