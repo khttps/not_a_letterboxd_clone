@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+import 'core/injector.dart' as di;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'core/palette.dart';
 import 'screens/screens.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  di.init();
+  await dotenv.load(fileName: 'assets/API_KEY.env');
   runApp(const NotLetterboxdApp());
 }
 
