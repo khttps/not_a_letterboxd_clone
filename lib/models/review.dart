@@ -1,23 +1,26 @@
 import 'package:equatable/equatable.dart';
-
+import 'package:json_annotation/json_annotation.dart';
 import 'models.dart';
 
+part 'review.g.dart';
+
+@JsonSerializable(createToJson: false)
 class Review extends Equatable {
   final int id;
   final String? text;
   final double? score;
   final Film film;
-  final String username;
-  final String? userAvatarUrl;
+  final User user;
 
   const Review({
     required this.id,
     this.text,
     this.score,
     required this.film,
-    required this.username,
-    this.userAvatarUrl,
+    required this.user,
   });
+
+  factory Review.fromJson(Map<String, dynamic> json) => _$ReviewFromJson(json);
 
   @override
   List<Object?> get props => [
@@ -25,7 +28,6 @@ class Review extends Equatable {
         text,
         score,
         film,
-        username,
-        userAvatarUrl,
+        user,
       ];
 }

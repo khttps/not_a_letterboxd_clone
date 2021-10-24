@@ -39,8 +39,11 @@ class ListsScreen extends StatelessWidget {
         description: 'This is a list by yours truly,'
             'it took me 6 hours to make,'
             'i hope you like it, thanks',
-        username: 'Ahmed',
-        userAvatarUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
+        user: const User(
+          id: 1,
+          username: 'ak-http',
+          avatarUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
+        ),
         films: _films,
       );
 }

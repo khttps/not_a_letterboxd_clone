@@ -1,5 +1,9 @@
 import 'package:equatable/equatable.dart';
+import 'package:json_annotation/json_annotation.dart';
 
+part 'news.g.dart';
+
+@JsonSerializable(createToJson: false)
 class News extends Equatable {
   final int id;
   final String headline;
@@ -12,6 +16,8 @@ class News extends Equatable {
     required this.description,
     required this.imageUrl,
   });
+
+  factory News.fromJson(Map<String, dynamic> json) => _$NewsFromJson(json);
 
   @override
   List<Object?> get props => [

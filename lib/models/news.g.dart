@@ -1,14 +1,14 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'film.dart';
+part of 'news.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-Film _$FilmFromJson(Map<String, dynamic> json) => Film(
+News _$NewsFromJson(Map<String, dynamic> json) => News(
       id: json['id'] as int,
-      title: json['title'] as String,
-      year: Film._extractYear(json['release_date'] as String),
-      posterUrl: Film._addBaseUrl(json['poster_path'] as String),
+      headline: json['headline'] as String,
+      description: json['description'] as String,
+      imageUrl: json['imageUrl'] as String,
     );

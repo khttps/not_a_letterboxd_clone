@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "text" : "This movie stinks",
+        "score" : 10.0,
+        "film" : {
+            "id" : 1,
+            "title" : "The Long Goodbye",
+            "release_date" : "1973-03-07",
+            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
+        }, 
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        }
+    }
+]

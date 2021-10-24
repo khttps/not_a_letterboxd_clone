@@ -1,14 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'film.dart';
+part of 'user.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-Film _$FilmFromJson(Map<String, dynamic> json) => Film(
+User _$UserFromJson(Map<String, dynamic> json) => User(
       id: json['id'] as int,
-      title: json['title'] as String,
-      year: Film._extractYear(json['release_date'] as String),
-      posterUrl: Film._addBaseUrl(json['poster_path'] as String),
+      username: json['username'] as String,
+      avatarUrl: json['avatarUrl'] as String?,
     );

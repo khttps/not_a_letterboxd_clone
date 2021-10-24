@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "name" : "Detective Movies",
+        "description" : "A list of detecive, mystery noir/neo-noir movies.",
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        },
+        "filmlist" : [
+            {
+                "id" : 1,
+                "title" : "The Long Goodbye",
+                "release_date" : "1973-03-07",
+                "poster_path" : ""
+            }
+        ]
+    }
+]

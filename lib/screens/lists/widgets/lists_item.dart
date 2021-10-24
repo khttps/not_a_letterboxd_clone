@@ -31,7 +31,7 @@ class ListsItem extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
-                UserCard(user: list.username, avatarUrl: list.userAvatarUrl),
+                UserCard(user: list.user),
               ],
             ),
           ),

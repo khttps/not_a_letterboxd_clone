@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:not_a_letterboxd_clone/models/models.dart';
 import '../core/palette.dart';
 
 class UserCard extends StatelessWidget {
-  final String user;
-  final String? avatarUrl;
+  final User user;
+
   const UserCard({
     required this.user,
-    this.avatarUrl,
     Key? key,
   }) : super(key: key);
 
@@ -16,7 +16,7 @@ class UserCard extends StatelessWidget {
     return Row(
       children: [
         Text(
-          user,
+          user.username,
           style: const TextStyle(
             fontWeight: FontWeight.w600,
             color: Palette.primary,
@@ -29,7 +29,7 @@ class UserCard extends StatelessWidget {
           child: CircleAvatar(
             radius: 15.5,
             backgroundImage: CachedNetworkImageProvider(
-              avatarUrl!,
+              user.avatarUrl!,
             ),
           ),
         ),

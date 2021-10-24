@@ -35,6 +35,7 @@ flutter:
   assets:
     - assets/images/
     - assets/fonts/
+    - assets/data/
     - assets/api_key.env
   fonts:
     - family: Graphik

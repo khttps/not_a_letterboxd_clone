@@ -25,8 +25,11 @@ class ReviewsScreen extends StatelessWidget {
                 year: '2021',
               ),
               score: 3.5,
-              username: 'Ahmed',
-              userAvatarUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
+              user: const User(
+                id: 1,
+                username: 'Ahmed',
+                avatarUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
+              ),
               text: 'Dune is a movie starring people '
                   'and directed by person and i like it a lot '
                   'i give it a 4 out of 2 solid movie '
