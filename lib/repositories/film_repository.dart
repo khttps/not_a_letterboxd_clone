@@ -1,8 +1,8 @@
-import '../service/tmdb_service.dart';
+import '../data/tmdb_service.dart';
 import '../models/models.dart';
 
 abstract class BaseFilmRepository {
-  Future<List<Film>> getFilms({required int page});
+  Future<FilmCollection> getFilms({required int page});
 }
 
 class FilmRepository implements BaseFilmRepository {
@@ -12,6 +12,6 @@ class FilmRepository implements BaseFilmRepository {
   }) : _service = service;
 
   @override
-  Future<List<Film>> getFilms({required int page}) =>
+  Future<FilmCollection> getFilms({required int page}) =>
       _service.getFilms(page: page);
 }

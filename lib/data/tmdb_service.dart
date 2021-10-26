@@ -7,7 +7,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'exception/internet_exception.dart';
 
 abstract class BaseTMDBService {
-  Future<List<Film>> getFilms({required int page});
+  Future<FilmCollection> getFilms({required int page});
 }
 
 class TMDBService implements BaseTMDBService {
@@ -25,9 +25,9 @@ class TMDBService implements BaseTMDBService {
   };
 
   @override
-  Future<List<Film>> getFilms({required int page}) async {
+  Future<FilmCollection> getFilms({required int page}) async {
     if (!await connectionChecker.hasConnection) {
-      throw InternetException(message: 'no_internet');
+      throw InternetException(message: 'No internet connection.');
     }
     final url = Uri.parse(
       '$_baseUrl/movie/popular?api_key=$_apiKey&page=$page',
@@ -35,9 +35,8 @@ class TMDBService implements BaseTMDBService {
     final response = await client.get(url, headers: _headers);
 
     if (response.statusCode == 200) {
-      final List<dynamic> results = json.decode(response.body)['results'];
-      return results.map((e) => Film.fromJson(e)).toList();
+      return FilmCollection.fromJson(json.decode(response.body));
     }
-    throw InternetException(message: 'failed_to_load');
+    throw InternetException(message: 'Failed to load data.');
   }
 }

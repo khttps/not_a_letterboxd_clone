@@ -9,6 +9,6 @@ part of 'film.dart';
 Film _$FilmFromJson(Map<String, dynamic> json) => Film(
       id: json['id'] as int,
       title: json['title'] as String,
-      year: Film._extractYear(json['release_date'] as String),
-      posterUrl: Film._addBaseUrl(json['poster_path'] as String),
+      year: json['release_date'] as String?,
+      posterUrl: Film._addBaseUrl(json['poster_path'] as String?),
     );

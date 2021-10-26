@@ -7,8 +7,8 @@ part 'film.g.dart';
 class Film extends Equatable {
   final int id;
   final String title;
-  @JsonKey(name: 'release_date', fromJson: _extractYear)
-  final String year;
+  @JsonKey(name: 'release_date')
+  final String? year;
   @JsonKey(name: 'poster_path', fromJson: _addBaseUrl)
   final String? posterUrl;
   const Film({
@@ -18,10 +18,13 @@ class Film extends Equatable {
     this.posterUrl,
   });
 
-  static String _extractYear(String year) =>
+  static String? _extractYear(String year) =>
       year.substring(0, year.indexOf('-'));
-  static String _addBaseUrl(String path) =>
-      'https://image.tmdb.org/t/p/w185$path';
+  static String? _addBaseUrl(String? path) {
+    if (path != null) {
+      return 'https://image.tmdb.org/t/p/w185$path';
+    }
+  }
 
   factory Film.fromJson(Map<String, dynamic> json) => _$FilmFromJson(json);
 

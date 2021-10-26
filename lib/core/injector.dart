@@ -3,13 +3,13 @@ import 'package:http/http.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import '/screens/blocs.dart';
 import '/repositories/repositories.dart';
-import '/service/tmdb_service.dart';
+import '/data/tmdb_service.dart';
 
 final sl = GetIt.instance;
 
 void init() {
   //! Bloc
-  sl.registerLazySingleton(() => FilmsBloc(repository: sl()));
+  sl.registerFactory(() => FilmsBloc(repository: sl()));
   //! Repository
   sl.registerLazySingleton<BaseFilmRepository>(
     () => FilmRepository(service: sl()),

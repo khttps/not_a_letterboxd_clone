@@ -9,7 +9,7 @@ import 'screens/screens.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   di.init();
-  await dotenv.load(fileName: 'assets/API_KEY.env');
+  await dotenv.load(fileName: 'assets/api_key.env');
   runApp(const NotLetterboxdApp());
 }
 

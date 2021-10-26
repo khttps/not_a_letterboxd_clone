@@ -11,15 +11,21 @@ class FilmsInitial extends FilmsState {}
 
 class FilmsLoading extends FilmsState {}
 
-class FilmsPageLoading extends FilmsState {}
-
 class FilmsLoaded extends FilmsState {
   final List<Film> films;
-  const FilmsLoaded({required this.films});
+  final int currentPage;
+  final int lastPage;
+  const FilmsLoaded({
+    required this.films,
+    required this.currentPage,
+    required this.lastPage,
+  });
 
   @override
   List<Object> get props => [films];
 }
+
+class FilmsPageError extends FilmsState {}
 
 class FilmsError extends FilmsState {
   final String message;

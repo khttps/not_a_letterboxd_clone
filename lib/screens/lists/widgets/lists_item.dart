@@ -36,7 +36,7 @@ class ListsItem extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10.0),
-          _List(filmsPostersUrls: list.films.map((e) => e.posterUrl).toList()),
+          _List(films: list.films),
           const SizedBox(height: 10.0),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -54,9 +54,9 @@ class ListsItem extends StatelessWidget {
 }
 
 class _List extends StatelessWidget {
-  final List<String?> filmsPostersUrls;
+  final List<Film> films;
   const _List({
-    required this.filmsPostersUrls,
+    required this.films,
     Key? key,
   }) : super(key: key);
 
@@ -65,12 +65,15 @@ class _List extends StatelessWidget {
     return SizedBox(
       height: 85.0,
       child: ListView.builder(
-        itemCount: filmsPostersUrls.length,
+        itemCount: films.length,
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
         itemBuilder: (context, index) => CachedNetworkImage(
-          imageUrl: filmsPostersUrls[index]!,
+          imageUrl: films[index].posterUrl!,
+          errorWidget: (i, c, e) => PosterErrorWidget(
+            title: films[index].title,
+          ),
           width: 59.5,
           height: 85.0,
           fit: BoxFit.cover,

@@ -32,6 +32,7 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
 - [flutter_dot_env](https://pub.dev/packages/flutter_dotenv)
 - [get_it](https://pub.dev/packages/get_it)
 - [http](https://pub.dev/packages/http)
+- [infinite_scroll_pagination](https://pub.dev/packages/infinite_scroll_pagination)
 - [internet_connection_checker](https://pub.dev/packages/internet_connection_checker)
 - [material_design_icons_flutter](https://pub.dev/packages/material_design_icons_flutter)
 - [json_serializable](https://pub.dev/packages/json_serializable)

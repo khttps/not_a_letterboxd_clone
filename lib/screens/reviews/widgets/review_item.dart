@@ -76,7 +76,9 @@ class ReviewItem extends StatelessWidget {
                     ),
                     child: CachedNetworkImage(
                       imageUrl: review.film.posterUrl ?? '',
-                      errorWidget: (c, u, e) => _buildErrorWidget(),
+                      errorWidget: (c, u, e) => PosterErrorWidget(
+                        title: review.film.title,
+                      ),
                       width: 70.0,
                       height: 100.0,
                       fit: BoxFit.cover,
@@ -104,11 +106,4 @@ class ReviewItem extends StatelessWidget {
       ],
     );
   }
-
-  _buildErrorWidget() => Center(
-        child: Text(
-          review.film.title,
-          style: const TextStyle(fontSize: 10.0),
-        ),
-      );
 }
