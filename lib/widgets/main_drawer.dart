@@ -19,34 +19,35 @@ class MainDrawer extends StatelessWidget {
                 child: Theme(
                   data: ThemeData(dividerColor: Colors.transparent),
                   child: DrawerHeader(
-                    margin: const EdgeInsets.symmetric(horizontal: 40.0),
+                    margin: const EdgeInsets.symmetric(horizontal: 48.0),
                     child: Image.asset('assets/images/drawer_header.png'),
                   ),
                 ),
               ),
+              const SizedBox(height: 10),
               _DrawerItem(
-                icon: Icons.layers_sharp,
+                iconData: Icons.layers_sharp,
                 label: 'Popular',
                 onTap: () {},
               ),
               _DrawerItem(
-                icon: Icons.search_sharp,
+                iconData: Icons.search_sharp,
                 label: 'Search',
                 onTap: () {},
               ),
               const Divider(color: Palette.darkGrey, height: 0.0),
               _DrawerItem(
-                icon: MdiIcons.accountLock,
+                iconData: MdiIcons.accountLock,
                 label: 'Sign in',
                 onTap: () {},
               ),
               _DrawerItem(
-                icon: Icons.person_add_sharp,
+                iconData: Icons.person_add_sharp,
                 label: 'Create account',
                 onTap: () {},
               ),
               _DrawerItem(
-                icon: Icons.view_carousel_sharp,
+                iconData: Icons.view_carousel_sharp,
                 label: 'Open tour',
                 onTap: () {},
               ),
@@ -60,24 +61,27 @@ class MainDrawer extends StatelessWidget {
 }
 
 class _DrawerItem extends StatelessWidget {
-  final IconData? icon;
+  final IconData? iconData;
+  final Icon? icon;
   final String label;
   final Function()? onTap;
   const _DrawerItem({
+    this.iconData,
     this.icon,
     required this.label,
     this.onTap,
     Key? key,
-  }) : super(key: key);
+  })  : assert((iconData == null) ^ (icon == null)),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ListTile(
       dense: true,
-      leading: icon == null
-          ? null
+      leading: iconData == null
+          ? icon
           : Icon(
-              icon,
+              iconData,
               color: Palette.border,
             ),
       title: Text(

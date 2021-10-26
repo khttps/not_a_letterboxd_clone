@@ -34,7 +34,7 @@ class NewsItem extends StatelessWidget {
                   const BorderRadius.vertical(top: Radius.circular(6.0)),
               child: CachedNetworkImage(
                 imageUrl: news.imageUrl,
-                height: 160.0,
+                height: 180.0,
                 fit: BoxFit.cover,
               ),
             ),
@@ -52,7 +52,14 @@ class NewsItem extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 8.0),
-                  Text(news.description),
+                  Text(
+                    news.description,
+                    style: const TextStyle(
+                      fontSize: 13.0,
+                      height: 1.7,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
                 ],
               ),
             ),

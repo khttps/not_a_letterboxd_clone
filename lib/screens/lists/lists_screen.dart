@@ -12,7 +12,7 @@ class ListsScreen extends StatelessWidget {
       onRefresh: () async {},
       child: ListView.separated(
         itemCount: 25,
-        separatorBuilder: (c, i) => const Divider(thickness: 0.7, height: 0.0),
+        separatorBuilder: (c, i) => const Divider(thickness: 0.8, height: 0.0),
         itemBuilder: (context, index) {
           return ListsItem(
             list: _filmlist(index),

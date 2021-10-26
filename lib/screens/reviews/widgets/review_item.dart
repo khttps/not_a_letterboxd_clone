@@ -40,8 +40,8 @@ class ReviewItem extends StatelessWidget {
                         text: ' ${review.film.year}',
                         style: const TextStyle(
                           color: Palette.text,
-                          fontSize: 14.0,
-                          fontWeight: FontWeight.w300,
+                          fontSize: 13.0,
+                          fontWeight: FontWeight.w400,
                         ),
                       )
                     ],
@@ -79,8 +79,8 @@ class ReviewItem extends StatelessWidget {
                       errorWidget: (c, u, e) => PosterErrorWidget(
                         title: review.film.title,
                       ),
-                      width: 70.0,
-                      height: 100.0,
+                      width: 77.0,
+                      height: 110.0,
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -88,7 +88,11 @@ class ReviewItem extends StatelessWidget {
                   Expanded(
                     child: Text(
                       review.text ?? '',
-                      style: const TextStyle(fontSize: 14.0, height: 1.2),
+                      style: const TextStyle(
+                        fontSize: 13.0,
+                        height: 1.7,
+                        fontWeight: FontWeight.w400,
+                      ),
                       maxLines: 6,
                       overflow: TextOverflow.ellipsis,
                     ),
@@ -99,7 +103,7 @@ class ReviewItem extends StatelessWidget {
           ),
         ),
         Positioned(
-          top: 12.0,
+          top: 16.0,
           right: 0.0,
           child: UserCard(user: review.user),
         ),

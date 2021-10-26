@@ -42,7 +42,11 @@ class ListsItem extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Text(
               list.description ?? '',
-              style: const TextStyle(fontSize: 14.0, height: 1.2),
+              style: const TextStyle(
+                fontSize: 13.0,
+                height: 1.7,
+                fontWeight: FontWeight.w400,
+              ),
               maxLines: 7,
               overflow: TextOverflow.ellipsis,
             ),
@@ -66,6 +70,7 @@ class _List extends StatelessWidget {
       height: 85.0,
       child: ListView.builder(
         itemCount: films.length,
+        addRepaintBoundaries: false,
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: 16.0),
