@@ -11,7 +11,7 @@ class NewsRepository implements BaseNewsRepository {
   @override
   Future<List<News>> getNews({required int page}) async {
     final response = await rootBundle.loadString(
-      'assets/data/news.json',
+      'assets/docs/news.json',
     );
     final List<dynamic> news = json.decode(response);
     return news.map((e) => News.fromJson(e)).toList();
