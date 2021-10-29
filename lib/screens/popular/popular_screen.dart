@@ -52,7 +52,7 @@ class _PopularScreenState extends State<PopularScreen> {
             ),
           ),
         ),
-        drawer: const MainDrawer(),
+        drawer: const MainDrawer(selectedIndex: 0),
         body: TabBarView(
           // index: _selectedIndex,
           children: _tabs.values.toList(),

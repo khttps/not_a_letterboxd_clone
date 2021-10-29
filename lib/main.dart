@@ -50,8 +50,8 @@ class NotLetterboxdApp extends StatelessWidget {
           ),
           tabBarTheme: const TabBarTheme(
             labelPadding: EdgeInsets.symmetric(horizontal: 14.0),
-            labelStyle: TextStyle(fontWeight: FontWeight.w500),
-            unselectedLabelStyle: TextStyle(fontWeight: FontWeight.w500),
+            labelStyle: TextStyle(fontWeight: FontWeight.w400),
+            unselectedLabelStyle: TextStyle(fontWeight: FontWeight.w400),
           ),
           appBarTheme: const AppBarTheme(
             backgroundColor: Palette.primary,
