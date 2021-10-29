@@ -29,6 +29,9 @@ class NotLetterboxdApp extends StatelessWidget {
         BlocProvider<ListsBloc>(
           create: (c) => di.sl()..add(const LoadLists(page: 1)),
         ),
+        BlocProvider<NewsBloc>(
+          create: (c) => di.sl()..add(const LoadNews(page: 1)),
+        ),
       ],
       child: MaterialApp(
         title: 'Not Letterboxd',
