@@ -1,6 +1,6 @@
 # not_a_letterboxd_clone
 
-This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it. I'm making it for educational purposes. I'm using the TMDB API for film data, since the Letterboxd API is still private. I won't be implementing authentication, this is just what the app looks like to a guest or a logged out user.
+This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it. I'm making it for educational purposes. I'm using the TMDB API for film data, since the Letterboxd API is still private. It's implemented using the BLoC pattern + GetIt. I won't be implementing authentication, this is just what the app looks like to a guest or a logged out user.
 
 ### Screenshots:
 
