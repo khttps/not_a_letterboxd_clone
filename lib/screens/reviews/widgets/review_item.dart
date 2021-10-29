@@ -106,7 +106,7 @@ class ReviewItem extends StatelessWidget {
           ),
         ),
         Positioned(
-          top: 8.0,
+          top: 12.0,
           right: 0.0,
           child: UserCard(user: review.user),
         ),

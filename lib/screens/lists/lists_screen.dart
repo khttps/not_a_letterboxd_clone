@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../models/models.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:not_a_letterboxd_clone/core/palette.dart';
+import '../blocs.dart';
 import 'widgets/lists_item.dart';
 import '../../widgets/widgets.dart';
 
@@ -10,40 +12,37 @@ class ListsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MainRefreshIndicator(
       onRefresh: () async {},
-      child: ListView.separated(
-        itemCount: 25,
-        separatorBuilder: (c, i) => const Divider(thickness: 0.8, height: 0.0),
-        itemBuilder: (context, index) {
-          return ListsItem(
-            list: _filmlist(index),
-            onTap: () {},
-          );
+      child: BlocConsumer<ListsBloc, ListsState>(
+        listener: (context, state) {
+          if (state is ListsError) {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              content: Text(state.message),
+              backgroundColor: Palette.boxdOrange,
+            ));
+          }
+        },
+        builder: (context, state) {
+          if (state is ListsLoading) {
+            return const LoadingWidget();
+          } else if (state is ListsLoaded) {
+            return ListView.separated(
+              itemCount: state.lists.length,
+              separatorBuilder: (c, i) =>
+                  const Divider(thickness: 0.8, height: 0.0),
+              itemBuilder: (context, index) {
+                return ListsItem(
+                  list: state.lists[index],
+                  onTap: () {},
+                );
+              },
+            );
+          } else {
+            return ListView(
+              physics: const AlwaysScrollableScrollPhysics(),
+            );
+          }
         },
       ),
     );
   }
-
-  get _films => List.generate(
-        20,
-        (index) => Film(
-          id: index,
-          title: 'Dune',
-          year: '2021',
-          posterUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
-        ),
-      );
-
-  _filmlist(int index) => Filmlist(
-        id: index,
-        name: 'My cool film list',
-        description: 'This is a list by yours truly,'
-            'it took me 6 hours to make,'
-            'i hope you like it, thanks',
-        user: const User(
-          id: 1,
-          username: 'ak-http',
-          avatarUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
-        ),
-        films: _films,
-      );
 }

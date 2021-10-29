@@ -9,10 +9,10 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
 - Tabs page
 - Drawer
 - Films page
+- Reviews page
 
 ### Screens to implement:
 
-- Reviews page
 - Lists page
 - News page
 

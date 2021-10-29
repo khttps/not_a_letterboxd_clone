@@ -11,7 +11,7 @@ class FilmlistRepository implements BaseFilmlistRepository {
   @override
   Future<List<Filmlist>> getFilmlists({required page}) async {
     final response = await rootBundle.loadString(
-      'assets/data/filmlists.json',
+      'assets/docs/filmlists.json',
     );
     final List<dynamic> filmlists = json.decode(response);
     return filmlists.map((e) => Filmlist.fromJson(e)).toList();
