@@ -12,8 +12,8 @@ class NewsBloc extends Bloc<NewsEvent, NewsState> {
       : _repository = repository,
         super(NewsInitial()) {
     on<NewsEvent>((event, emit) async {
-      emit(const NewsLoading());
       if (event is LoadNews) {
+        emit(const NewsLoading());
         try {
           final news = await _repository.getNews(page: event.page);
           emit(NewsLoaded(news: news));

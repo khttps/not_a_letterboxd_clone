@@ -12,8 +12,8 @@ class ListsBloc extends Bloc<ListsEvent, ListsState> {
       : _repository = repository,
         super(ListsInitial()) {
     on<ListsEvent>((event, emit) async {
-      emit(const ListsLoading());
       if (event is LoadLists) {
+        emit(const ListsLoading());
         try {
           final lists = await _repository.getFilmlists(page: event.page);
           emit(ListsLoaded(lists: lists));

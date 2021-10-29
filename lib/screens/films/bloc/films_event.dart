@@ -7,14 +7,11 @@ abstract class FilmsEvent extends Equatable {
   List<Object> get props => [];
 }
 
-class GetFilms implements FilmsEvent {
+class GetFilms extends FilmsEvent {
   const GetFilms();
 
   @override
   List<Object> get props => [];
-
-  @override
-  bool? get stringify => true;
 }
 
 class GetPagedFilms extends FilmsEvent {

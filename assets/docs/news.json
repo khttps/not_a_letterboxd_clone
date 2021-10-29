@@ -1,68 +1,74 @@
 [
     {
         "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "headline" : "Notebook Primer: John Carpenter",
+        "description" : "From horror to comedies to Westerns, an overview of the career of one of Hollywood's great genre filmmakers.", 
+        "imageUrl" : "https://a.ltrbxd.com/resized/story/image/4/6/7/2/4/0/6/shard/4662/blob-960-960-0-0-fill.jpg?k=43902f55d1"
+    },
+    {
+        "id" : 2,
+        "headline" : "Review: ‘Antlers’",
+        "description" : "Director Scott Cooper's first foray into horror, Antlers, opens everywhere tomorrow. Critic Andrew Wyatt has a review:", 
+        "imageUrl" : "https://a.ltrbxd.com/resized/story/image/4/2/9/2/2/8/5/shard/4659/blob-960-960-0-0-fill.jpg?k=8bc1c2f9b5"
+    },
+    {
+        "id" : 3,
+        "headline" : "Splendors of Universal",
+        "description" : "Welcome to Hollywood!", 
+        "imageUrl" : "https://a.ltrbxd.com/resized/story/image/4/6/3/6/6/1/3/shard/4653/blob-960-960-0-0-fill.jpg?k=702f044e55"
+    },
+    {
+        "id" : 4,
+        "headline" : "Free Form",
+        "description" : "Ella Kemp chats to Léa Seydoux about Wes Anderson’s “little troupe” and baring it all.", 
+        "imageUrl" : "https://64.media.tumblr.com/e479adcd426d83c47f8f96c6ea61ed9b/a0376484fb7e568d-27/s1280x1920/e477714564ef4fd46e461137e4cf40815ba2227f.jpg"
+    },
+    {
+        "id" : 5,
+        "headline" : "One Good Motherf**ker",
+        "description" : "An exclusive excerpt from a new book about the life and work of Samuel L. Jackson.",
+        "imageUrl" : "https://64.media.tumblr.com/ad0374e6e00f896d497235929e8f5333/7e4257fced522cc3-13/s1280x1920/cfd5f94a0e00da99afd38a4ae948bed5d1e9d362.jpg"
+    },
+    {
+        "id" : 6,
+        "headline" : "Fårö and Away",
+        "description" : "Bergman Island filmmaker Mia Hansen-Løve on all things Bergman.", 
+        "imageUrl" : "https://64.media.tumblr.com/6d2dc2631803f7a79c5ee5aa43f4bc09/4beb04b7921f1dd2-56/s1280x1920/c0cd8ef7ce63c31aaa57b2f6096c6801e9d10754.jpg"
     },
     {
         "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "headline" : "Notebook Primer: John Carpenter",
+        "description" : "From horror to comedies to Westerns, an overview of the career of one of Hollywood's great genre filmmakers.", 
+        "imageUrl" : "https://a.ltrbxd.com/resized/story/image/4/6/7/2/4/0/6/shard/4662/blob-960-960-0-0-fill.jpg?k=43902f55d1"
     },
     {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "id" : 2,
+        "headline" : "Review: ‘Antlers’",
+        "description" : "Director Scott Cooper's first foray into horror, Antlers, opens everywhere tomorrow. Critic Andrew Wyatt has a review:", 
+        "imageUrl" : "https://a.ltrbxd.com/resized/story/image/4/2/9/2/2/8/5/shard/4659/blob-960-960-0-0-fill.jpg?k=8bc1c2f9b5"
     },
     {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "id" : 3,
+        "headline" : "Splendors of Universal",
+        "description" : "Welcome to Hollywood!", 
+        "imageUrl" : "https://a.ltrbxd.com/resized/story/image/4/6/3/6/6/1/3/shard/4653/blob-960-960-0-0-fill.jpg?k=702f044e55"
     },
     {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "id" : 4,
+        "headline" : "Free Form",
+        "description" : "Ella Kemp chats to Léa Seydoux about Wes Anderson’s “little troupe” and baring it all.", 
+        "imageUrl" : "https://64.media.tumblr.com/e479adcd426d83c47f8f96c6ea61ed9b/a0376484fb7e568d-27/s1280x1920/e477714564ef4fd46e461137e4cf40815ba2227f.jpg"
     },
     {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "id" : 5,
+        "headline" : "One Good Motherf**ker",
+        "description" : "An exclusive excerpt from a new book about the life and work of Samuel L. Jackson.",
+        "imageUrl" : "https://64.media.tumblr.com/ad0374e6e00f896d497235929e8f5333/7e4257fced522cc3-13/s1280x1920/cfd5f94a0e00da99afd38a4ae948bed5d1e9d362.jpg"
     },
     {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
-    },
-    {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
-    },
-    {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
-    },
-    {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
-    },
-    {
-        "id" : 1,
-        "headline" : "Dune 2 announced, to be released in 2023",
-        "description" : "Denis is stoked", 
-        "imageUrl" : "https://i.imgur.com/cEI8Ryc.jpeg"
+        "id" : 6,
+        "headline" : "Fårö and Away",
+        "description" : "Bergman Island filmmaker Mia Hansen-Løve on all things Bergman.", 
+        "imageUrl" : "https://64.media.tumblr.com/6d2dc2631803f7a79c5ee5aa43f4bc09/4beb04b7921f1dd2-56/s1280x1920/c0cd8ef7ce63c31aaa57b2f6096c6801e9d10754.jpg"
     }
 ]
