@@ -8,6 +8,7 @@ part 'review.g.dart';
 class Review extends Equatable {
   final int id;
   final String? text;
+  @JsonKey(fromJson: _fiveBasedScore)
   final double? score;
   final Film film;
   final User user;
@@ -21,6 +22,12 @@ class Review extends Equatable {
   });
 
   factory Review.fromJson(Map<String, dynamic> json) => _$ReviewFromJson(json);
+
+  static double? _fiveBasedScore(double? score) {
+    if (score != null) {
+      return score / 2;
+    }
+  }
 
   @override
   List<Object?> get props => [

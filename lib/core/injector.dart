@@ -10,6 +10,8 @@ final sl = GetIt.instance;
 void init() {
   //! Bloc
   sl.registerFactory(() => FilmsBloc(repository: sl()));
+  sl.registerFactory(() => ReviewsBloc(repository: sl()));
+
   //! Repository
   sl.registerLazySingleton<BaseFilmRepository>(
     () => FilmRepository(service: sl()),

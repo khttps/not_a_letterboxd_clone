@@ -20,7 +20,12 @@ class NotLetterboxdApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider<FilmsBloc>(create: (c) => di.sl<FilmsBloc>()),
+        BlocProvider<FilmsBloc>(
+          create: (c) => di.sl(),
+        ),
+        BlocProvider<ReviewsBloc>(
+          create: (c) => di.sl()..add(const LoadReviews(page: 1)),
+        ),
       ],
       child: MaterialApp(
         title: 'Not Letterboxd',

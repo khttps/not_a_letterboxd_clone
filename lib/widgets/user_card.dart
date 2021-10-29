@@ -21,6 +21,8 @@ class UserCard extends StatelessWidget {
             fontWeight: FontWeight.w600,
             color: Palette.primary,
           ),
+          overflow: TextOverflow.ellipsis,
+          maxLines: 1,
         ),
         const SizedBox(width: 8.0),
         CircleAvatar(

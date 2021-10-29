@@ -64,11 +64,11 @@ class _FilmsScreenState extends State<FilmsScreen> {
             return PagedGridView<int, Film>(
               pagingController: _pagingController,
               shrinkWrap: true,
-              padding: const EdgeInsets.all(4.0),
+              padding: const EdgeInsets.all(6.0),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 4,
-                mainAxisSpacing: 4.0,
-                crossAxisSpacing: 4.0,
+                mainAxisSpacing: 6.0,
+                crossAxisSpacing: 6.0,
                 childAspectRatio: 0.7,
               ),
               builderDelegate: PagedChildBuilderDelegate(

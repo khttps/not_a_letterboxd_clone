@@ -21,30 +21,33 @@ class ReviewItem extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 18.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               // Film title and year
               // width is half the screen so it wouldn't overlap
               // with the user info
-              SizedBox(
-                width: MediaQuery.of(context).size.width / 2,
-                child: RichText(
-                  text: TextSpan(
-                    text: review.film.title,
-                    style: const TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.w700,
+              Align(
+                alignment: Alignment.centerLeft,
+                child: SizedBox(
+                  width: MediaQuery.of(context).size.width / 2,
+                  child: RichText(
+                    maxLines: 2,
+                    text: TextSpan(
+                      text: review.film.title,
+                      style: const TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.w700,
+                      ),
+                      children: [
+                        TextSpan(
+                          text: ' ${review.film.year}',
+                          style: const TextStyle(
+                            color: Palette.text,
+                            fontSize: 13.0,
+                            fontWeight: FontWeight.w400,
+                          ),
+                        )
+                      ],
                     ),
-                    children: [
-                      TextSpan(
-                        text: ' ${review.film.year}',
-                        style: const TextStyle(
-                          color: Palette.text,
-                          fontSize: 13.0,
-                          fontWeight: FontWeight.w400,
-                        ),
-                      )
-                    ],
                   ),
                 ),
               ),
@@ -103,7 +106,7 @@ class ReviewItem extends StatelessWidget {
           ),
         ),
         Positioned(
-          top: 16.0,
+          top: 8.0,
           right: 0.0,
           child: UserCard(user: review.user),
         ),

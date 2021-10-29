@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../models/models.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:not_a_letterboxd_clone/core/palette.dart';
+import '../blocs.dart';
 import 'widgets/review_item.dart';
 import '../../widgets/widgets.dart';
 
@@ -9,36 +11,44 @@ class ReviewsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MainRefreshIndicator(
-      onRefresh: () async {},
-      child: ListView.separated(
-        itemCount: 25,
-        padding: const EdgeInsets.symmetric(horizontal: 16.0),
-        separatorBuilder: (c, i) => const Divider(thickness: 0.7, height: 0.0),
-        itemBuilder: (context, index) {
-          return ReviewItem(
-            review: Review(
-              id: index,
-              film: Film(
-                id: index,
-                title: 'Dune',
-                posterUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
-                year: '2021',
+      onRefresh: () async => _loadReviews(context),
+      child: BlocConsumer<ReviewsBloc, ReviewsState>(
+        listener: (context, state) {
+          if (state is ReviewsError) {
+            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+              content: Text(state.message),
+              backgroundColor: Palette.boxdOrange,
+            ));
+          }
+        },
+        builder: (context, state) {
+          if (state is ReviewsLoading) {
+            return const LoadingWidget();
+          } else if (state is ReviewsLoaded) {
+            return ListView.separated(
+              itemCount: state.reviews.length,
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              separatorBuilder: (c, i) => const Divider(
+                thickness: 0.7,
+                height: 0.0,
               ),
-              score: 3.5,
-              user: const User(
-                id: 1,
-                username: 'Ahmed',
-                avatarUrl: 'https://i.imgur.com/cEI8Ryc.jpeg',
-              ),
-              text: 'Dune is a movie starring people '
-                  'and directed by person and i like it a lot '
-                  'i give it a 4 out of 2 solid movie '
-                  'really long review i hated this movie actually but whatever',
-            ),
-            onTap: () {},
-          );
+              itemBuilder: (context, index) {
+                return ReviewItem(
+                  review: state.reviews[index],
+                  onTap: () {},
+                );
+              },
+            );
+          } else {
+            return ListView(
+              physics: const AlwaysScrollableScrollPhysics(),
+            );
+          }
         },
       ),
     );
   }
+
+  void _loadReviews(BuildContext context) =>
+      BlocProvider.of<ReviewsBloc>(context).add(const LoadReviews(page: 1));
 }

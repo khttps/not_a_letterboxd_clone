@@ -11,7 +11,7 @@ class ReviewRepository implements BaseReviewRepository {
   @override
   Future<List<Review>> getReviews({required int page}) async {
     final response = await rootBundle.loadString(
-      'assets/data/reviews.json',
+      'assets/docs/reviews.json',
     );
     final List<dynamic> reviews = json.decode(response);
     return reviews.map((e) => Review.fromJson(e)).toList();
