@@ -10,71 +10,1256 @@
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
+                "genre_ids": [
+                    80,
+                    9648,
+                    53
+                ],
+                "id": 807,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Se7en",
+                "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+                "popularity": 38.188,
+                "poster_path": "/69Sns8WoET6CfaYlIkHbla4l7nC.jpg",
+                "release_date": "1995-09-22",
+                "title": "Se7en",
+                "video": false,
+                "vote_average": 8.3,
+                "vote_count": 15947
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/mfJepkInUbiZ0mFXFhDNz8ko6Zr.jpg",
+                "genre_ids": [
+                    18,
+                    9648,
+                    53
+                ],
+                "id": 1124,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Prestige",
+                "overview": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+                "popularity": 22.218,
+                "poster_path": "/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg",
+                "release_date": "2006-10-19",
+                "title": "The Prestige",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 12253
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+                "genre_ids": [
+                    14,
+                    18,
+                    80
+                ],
+                "id": 497,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Green Mile",
+                "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+                "popularity": 59.174,
+                "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+                "release_date": "1999-12-10",
+                "title": "The Green Mile",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 12946
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/q2CtXYjp9IlnfBcPktNkBPsuAEO.jpg",
+                "genre_ids": [
+                    9648,
+                    53
+                ],
+                "id": 77,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Memento",
+                "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+                "popularity": 23.558,
+                "poster_path": "/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg",
+                "release_date": "2000-10-11",
+                "title": "Memento",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 11534
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/U8QRD7jvTXEYsUXq74IFKaSiL5.jpg",
+                "genre_ids": [
+                    18,
+                    53,
+                    9648
+                ],
+                "id": 11324,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Shutter Island",
+                "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor.",
+                "popularity": 49.622,
+                "poster_path": "/52d7CAjnwh1cZXd2lhKaHVFMu0Q.jpg",
+                "release_date": "2010-02-14",
+                "title": "Shutter Island",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 18707
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/6CLV2HakYO1tyAV5GUHOeNPyaTd.jpg",
+                "genre_ids": [
+                    18,
+                    80,
+                    53
+                ],
+                "id": 629,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Usual Suspects",
+                "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+                "popularity": 20.415,
+                "poster_path": "/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg",
+                "release_date": "1995-07-19",
+                "title": "The Usual Suspects",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 8079
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+                "genre_ids": [
+                    9648,
+                    53,
+                    18
+                ],
+                "id": 745,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Sixth Sense",
+                "overview": "Following an unexpected tragedy, a child psychologist named Malcolm Crowe meets an nine year old boy named Cole Sear, who is hiding a dark secret.",
+                "popularity": 27.87,
+                "poster_path": "/fIssD3w3SvIhPPmVo4WMgZDVLID.jpg",
+                "release_date": "1999-08-06",
+                "title": "The Sixth Sense",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 8975
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/x9ezMgOtDPqHatHDvxEG0ILb6Ie.jpg",
+                "genre_ids": [
+                    9648,
+                    53,
+                    18
+                ],
+                "id": 210577,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Gone Girl",
+                "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+                "popularity": 38.396,
+                "poster_path": "/qymaJhucquUwjpb8oiqynMeXnID.jpg",
+                "release_date": "2014-10-01",
+                "title": "Gone Girl",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 14877
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
+                "genre_ids": [
+                    14,
+                    12
+                ],
+                "id": 12445,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+                "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+                "popularity": 173.89,
+                "poster_path": "/da22ZBmrDOXOCDRvr8Gic8ldhv4.jpg",
+                "release_date": "2011-07-07",
+                "title": "Harry Potter and the Deathly Hallows: Part 2",
+                "video": false,
+                "vote_average": 8.1,
+                "vote_count": 16311
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+                "genre_ids": [
+                    14,
+                    18,
+                    9648
+                ],
+                "id": 141,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Donnie Darko",
+                "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+                "popularity": 29.777,
+                "poster_path": "/fhQoQfejY1hUcwyuLgpBrYs6uFt.jpg",
+                "release_date": "2001-10-26",
+                "title": "Donnie Darko",
+                "video": false,
+                "vote_average": 7.8,
+                "vote_count": 9819
             }
         ]
     },
     {
         "id" : 2,
-        "name" : "Romance Movies",
-        "description" : "Movies about love and whatever",
+        "name" : "The movies everyone has seen!",
+        "description" : "Have you been living under a rock?",
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 2,
+            "username" : "msimonetta",
+            "avatarUrl" : "https://i.imgur.com/pBcut2e.jpeg"
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/qCU097AXMPAsmpVK4j9kzMTxt2d.jpg",
+                "genre_ids": [
+                    12,
+                    14,
+                    10751
+                ],
+                "id": 630,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Wizard of Oz",
+                "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+                "popularity": 55.138,
+                "poster_path": "/bSA6DbAC5gdkaooU164lQUX6rVs.jpg",
+                "release_date": "1939-08-15",
+                "title": "The Wizard of Oz",
+                "video": false,
+                "vote_average": 7.6,
+                "vote_count": 4305
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/6VmFqApQRyZZzmiGOQq2C92jyvH.jpg",
+                "genre_ids": [
+                    18,
+                    10749
+                ],
+                "id": 597,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Titanic",
+                "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
+                "popularity": 91.236,
+                "poster_path": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+                "release_date": "1997-11-18",
+                "title": "Titanic",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 19943
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/mXLVA0YL6tcXi6SJSuAh9ONXFj5.jpg",
+                "genre_ids": [
+                    878,
+                    12,
+                    10751,
+                    14
+                ],
+                "id": 601,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "E.T. the Extra-Terrestrial",
+                "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+                "popularity": 23.002,
+                "poster_path": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+                "release_date": "1982-06-11",
+                "title": "E.T. the Extra-Terrestrial",
+                "video": false,
+                "vote_average": 7.5,
+                "vote_count": 9002
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/um7dCYud1VGIsjTmSTvhO0QNTFr.jpg",
+                "genre_ids": [
+                    12,
+                    878
+                ],
+                "id": 329,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Jurassic Park",
+                "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+                "popularity": 19.372,
+                "poster_path": "/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+                "release_date": "1993-06-11",
+                "title": "Jurassic Park",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 12728
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+                "genre_ids": [
+                    16,
+                    12,
+                    10751,
+                    35
+                ],
+                "id": 862,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Toy Story",
+                "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+                "popularity": 157.359,
+                "poster_path": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+                "release_date": "1995-10-30",
+                "title": "Toy Story",
+                "video": false,
+                "vote_average": 8,
+                "vote_count": 14573
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/3nYlM34QhzdtAvWRV5bN4nLtnTc.jpg",
+                "genre_ids": [
+                    27,
+                    53,
+                    12
+                ],
+                "id": 578,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Jaws",
+                "overview": "When an insatiable great white shark terrorizes the townspeople of Amity Island, the police chief, an oceanographer and a grizzled shark hunter seek to destroy the blood-thirsty beast.",
+                "popularity": 46.729,
+                "poster_path": "/s2xcqSFfT6F7ZXHxowjxfG0yisT.jpg",
+                "release_date": "1975-06-18",
+                "title": "Jaws",
+                "video": false,
+                "vote_average": 7.6,
+                "vote_count": 7813
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
+                "genre_ids": [
+                    10751,
+                    16,
+                    18
+                ],
+                "id": 8587,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Lion King",
+                "overview": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
+                "popularity": 131.657,
+                "poster_path": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+                "release_date": "1994-06-23",
+                "title": "The Lion King",
+                "video": false,
+                "vote_average": 8.3,
+                "vote_count": 14530
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/vaVaNrscmsG8CUKYxiwZGFNqGJo.jpg",
+                "genre_ids": [
+                    35,
+                    10751
+                ],
+                "id": 771,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Home Alone",
+                "overview": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. But when a pair of bungling burglars set their sights on Kevin's house, the plucky kid stands ready to defend his territory. By planting booby traps galore, adorably mischievous Kevin stands his ground as his frantic mother attempts to race home before Christmas Day.",
+                "popularity": 2.421,
+                "poster_path": "/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg",
+                "release_date": "1990-11-16",
+                "title": "Home Alone",
+                "video": false,
+                "vote_average": 7.3,
+                "vote_count": 8299
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
+                "genre_ids": [
+                    35,
+                    18,
+                    10749
+                ],
+                "id": 13,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Forrest Gump",
+                "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+                "popularity": 43.723,
+                "poster_path": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+                "release_date": "1994-07-06",
+                "title": "Forrest Gump",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 21448
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/kCiMExsYuNhYluHxPP2OTmWw7hp.jpg",
+                "genre_ids": [
+                    12,
+                    28
+                ],
+                "id": 85,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Raiders of the Lost Ark",
+                "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+                "popularity": 26.92,
+                "poster_path": "/awUGN7ZCNq2EUTdpVaHDX23anOZ.jpg",
+                "release_date": "1981-06-12",
+                "title": "Raiders of the Lost Ark",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 9541
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/koSWhCzMJfJOramu4KD0ZZifqpi.jpg",
+                "genre_ids": [
+                    10749,
+                    35
+                ],
+                "id": 621,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Grease",
+                "overview": "Australian good girl Sandy and greaser Danny fell in love over the summer. But when they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance despite their eccentric friends?",
+                "popularity": 35.4,
+                "poster_path": "/czVhhAaSBFpakur7U8pOIDV9NUG.jpg",
+                "release_date": "1978-07-07",
+                "title": "Grease",
+                "video": false,
+                "vote_average": 7.4,
+                "vote_count": 5778
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/fq3wyOs1RHyz2yfzsb4sck7aWRG.jpg",
+                "genre_ids": [
+                    12,
+                    35,
+                    878,
+                    10751
+                ],
+                "id": 105,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Back to the Future",
+                "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+                "popularity": 49.125,
+                "poster_path": "/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
+                "release_date": "1985-07-03",
+                "title": "Back to the Future",
+                "video": false,
+                "vote_average": 8.3,
+                "vote_count": 15712
             }
         ]
     },
     {
         "id" : 3,
-        "name" : "Thriller/Horror Movies",
-        "description" : "This is some scary stuff",
+        "name" : "popular films",
+        "description" : "sneed",
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 3,
+            "username" : "Hunter",
+            "avatarUrl" : ""
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/nlG452icactoT6hbqECbSEVfGII.jpg",
+                "genre_ids": [
+                    16,
+                    12,
+                    35,
+                    10751,
+                    14
+                ],
+                "id": 228326,
+                "original_language": "en",
+                "original_title": "The Book of Life",
+                "overview": "The journey of Manolo, a young man who is torn between fulfilling the expectations of his family and following his heart. Before choosing which path to follow, he embarks on an incredible adventure that spans three fantastical worlds where he must face his greatest fears.",
+                "popularity": 129.517,
+                "poster_path": "/puTDvsUADxCA5NjJuwgEWqQ3xGA.jpg",
+                "release_date": "2014-10-01",
+                "title": "The Book of Life",
+                "video": false,
+                "vote_average": 7.5,
+                "vote_count": 2009
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+                "genre_ids": [
+                    12,
+                    14,
+                    28
+                ],
+                "id": 120,
+                "original_language": "en",
+                "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+                "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+                "popularity": 94.742,
+                "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+                "release_date": "2001-12-18",
+                "title": "The Lord of the Rings: The Fellowship of the Ring",
+                "video": false,
+                "vote_average": 8.4,
+                "vote_count": 19897
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8kZT97Ml1ZyawrfHCajmP2b0wPC.jpg",
+                "genre_ids": [
+                    27,
+                    53
+                ],
+                "id": 11187,
+                "original_language": "en",
+                "original_title": "Child's Play 3",
+                "overview": "Eight years have passed since the events of the second film. Chucky has been resurrected once again and seeks revenge on Andy, his former owner, who is now a teenager enrolled in military school.",
+                "popularity": 126.76,
+                "poster_path": "/6toMk9OCuDYEEf733Bzlq3yiw3z.jpg",
+                "release_date": "1991-08-30",
+                "title": "Child's Play 3",
+                "video": false,
+                "vote_average": 5.9,
+                "vote_count": 1054
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/ijH9rW7IzseQPfHjRQQQ8fGjfYn.jpg",
+                "genre_ids": [
+                    18
+                ],
+                "id": 817566,
+                "original_language": "es",
+                "original_title": "Solo una vez",
+                "overview": "",
+                "popularity": 109.254,
+                "poster_path": "/xdUvxxTSzZYz2LeSbyEld7JZYmp.jpg",
+                "release_date": "2021-06-11",
+                "title": "Solo una vez",
+                "video": false,
+                "vote_average": 4.7,
+                "vote_count": 3
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/ckCrunvxJ1SqL1w4goJGGGZ5PGP.jpg",
+                "genre_ids": [
+                    18,
+                    80,
+                    53
+                ],
+                "id": 616651,
+                "original_language": "en",
+                "original_title": "Stillwater",
+                "overview": "Bill Baker, an American oil-rig roughneck from Oklahoma, travels to Marseille to visit his estranged daughter, Allison, who is in prison for a murder she claims she did not commit. Confronted with language barriers, cultural differences, and a complicated legal system, Bill builds a new life for himself in France as he makes it his personal mission to exonerate his daughter.",
+                "popularity": 123.828,
+                "poster_path": "/cPdmPwcIcmu0ugfKcdFtI3vmOJq.jpg",
+                "release_date": "2021-07-29",
+                "title": "Stillwater",
+                "video": false,
+                "vote_average": 7,
+                "vote_count": 332
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/kbI9M2m45SSwi3t5ztygAlKxUql.jpg",
+                "genre_ids": [
+                    16,
+                    28,
+                    878
+                ],
+                "id": 44251,
+                "original_language": "ja",
+                "original_title": "ドラゴンボールＺ 危険なふたり！超戦士はねむれない",
+                "overview": "A Saiyan Space pod crash-lands on Earth out of which a wounded Saiyan crawls: Broly, the Legendary Super Saiyan. The wounded Broly shouts out in frustration and turns into normal form. The place soon freezes, trapping him in it and he falls into a coma.",
+                "popularity": 110.596,
+                "poster_path": "/4CkArpSqySpBQH95Oqr94ktU6rU.jpg",
+                "release_date": "1994-03-12",
+                "title": "Dragon Ball Z: Broly – Second Coming",
+                "video": false,
+                "vote_average": 6.7,
+                "vote_count": 470
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/rbB7g8YBFMLKtmwB8QEvVlKh5Yh.jpg",
+                "genre_ids": [
+                    80,
+                    18,
+                    28,
+                    53,
+                    878
+                ],
+                "id": 42194,
+                "original_language": "en",
+                "original_title": "TEKKEN",
+                "overview": "In the year of 2039, after World Wars destroy much of the civilization as we know it, territories are no longer run by governments, but by corporations; the mightiest of which is the Mishima Zaibatsu. In order to placate the seething masses of this dystopia, Mishima sponsors Tekken, a tournament in which fighters battle until only one is left standing.",
+                "popularity": 122.824,
+                "poster_path": "/1xO2LirDZstkqZic1FwfK6GJIHH.jpg",
+                "release_date": "2010-03-20",
+                "title": "TEKKEN",
+                "video": false,
+                "vote_average": 5.4,
+                "vote_count": 511
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aiQICxiWNcOsJruYxdPuhb6WtWu.jpg",
+                "genre_ids": [
+                    9648,
+                    18,
+                    27,
+                    12,
+                    16
+                ],
+                "id": 658558,
+                "original_language": "ja",
+                "original_title": "劇場版 巨蟲列島",
+                "overview": "After an airplane crash during a school trip, Oribe Mutsumi and her classmates were stranded on a seemingly deserted island. Mutsumi found the other survivors, and used her wilderness knowledge to help them. She expects that they will be rescued in about three days, which doesn't seem so long to endure. However, she didn't account for the fact that the island is populated with gigantic killer insects. Her knowledge of butterflies, wasps, and more may be the only thing that will help any of her classmates survive to be rescued!",
+                "popularity": 115.121,
+                "poster_path": "/uJFki1BLHvEi4gaPCJvy9SZQZpx.jpg",
+                "release_date": "2020-01-10",
+                "title": "The Island of Giant Insects",
+                "video": false,
+                "vote_average": 4.9,
+                "vote_count": 10
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/9N3KKOKpqEFe9GhHaIVHwk9N1Y.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    10751,
+                    14
+                ],
+                "id": 76492,
+                "original_language": "en",
+                "original_title": "Hotel Transylvania",
+                "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+                "popularity": 126.419,
+                "poster_path": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+                "release_date": "2012-09-20",
+                "title": "Hotel Transylvania",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 6925
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    14,
+                    12,
+                    10751
+                ],
+                "id": 808,
+                "original_language": "en",
+                "original_title": "Shrek",
+                "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+                "popularity": 125.361,
+                "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+                "release_date": "2001-05-18",
+                "title": "Shrek",
+                "video": false,
+                "vote_average": 7.7,
+                "vote_count": 13009
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/tcvPFdANexMxEsIUZnzjxBJbgkb.jpg",
+                "genre_ids": [
+                    35
+                ],
+                "id": 4248,
+                "original_language": "en",
+                "original_title": "Scary Movie 2",
+                "overview": "While the original parodied slasher flicks like Scream, Keenen Ivory Wayans's sequel to Scary Movie takes comedic aim at haunted house movies. A group of students visit a mansion called \"Hell House,\" and murderous high jinks ensue.",
+                "popularity": 120.571,
+                "poster_path": "/7Eb1JWK0Cb0rbfsYjwfc9g0PbQH.jpg",
+                "release_date": "2001-07-04",
+                "title": "Scary Movie 2",
+                "video": false,
+                "vote_average": 5.8,
+                "vote_count": 3480
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/2AFZyra0Ddwl2oBDhClvD1qSIL6.jpg",
+                "genre_ids": [
+                    27,
+                    878
+                ],
+                "id": 340102,
+                "original_language": "en",
+                "original_title": "The New Mutants",
+                "overview": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+                "popularity": 120.811,
+                "poster_path": "/xZNw9xxtwbEf25NYoz52KdbXHPM.jpg",
+                "release_date": "2020-08-26",
+                "title": "The New Mutants",
+                "video": false,
+                "vote_average": 6.3,
+                "vote_count": 2361
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/pO1SnM5a1fEsYrFaVZW78Wb0zRJ.jpg",
+                "genre_ids": [
+                    10751,
+                    16,
+                    12,
+                    35,
+                    10770
+                ],
+                "id": 677638,
+                "original_language": "en",
+                "original_title": "We Bare Bears: The Movie",
+                "overview": "When Grizz, Panda, and Ice Bear's love of food trucks and viral videos get out of hand, the brothers are now chased away from their home and embark on a trip to Canada, where they can live in peace.",
+                "popularity": 102.421,
+                "poster_path": "/kPzcvxBwt7kEISB9O4jJEuBn72t.jpg",
+                "release_date": "2020-06-30",
+                "title": "We Bare Bears: The Movie",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 686
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/sNQWRiwOc1R261yg7XVXxq0b5F9.jpg",
+                "genre_ids": [
+                    16
+                ],
+                "id": 812456,
+                "original_language": "en",
+                "original_title": "Barbie & Chelsea: The Lost Birthday",
+                "overview": "Enjoy high-sea thrills as Barbie, Chelsea and the rest of the Roberts family set sail on an adventure cruise.  \"Barbie & Chelsea The Lost Birthday\" tells the story of Chelsea, Barbie’s precocious youngest sister, and the rest of the Roberts family as they set sail on an adventure cruise for her seventh birthday. When they cross the International Date Line, Chelsea discovers her actual birthday has been lost and she embarks on a fantastical journey through an enchanted jungle island in order to save it.",
+                "popularity": 114.681,
+                "poster_path": "/yZdVDxLXbz4yucwMy1yTCGTYNVC.jpg",
+                "release_date": "2021-05-14",
+                "title": "Barbie & Chelsea: The Lost Birthday",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 57
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/4jKbWxfIpuzPvSCUKGVVjF2L5mV.jpg",
+                "genre_ids": [
+                    9648,
+                    53,
+                    27
+                ],
+                "id": 604360,
+                "original_language": "ko",
+                "original_title": "제8일의 밤",
+                "overview": "With prayer beads in one hand and an ax in the other, a monk hunts down a millennia-old spirit that's possessing humans and unleashing hell on Earth.",
+                "popularity": 99.257,
+                "poster_path": "/trSDStH3UP4ux4lAILNNSqDXSB3.jpg",
+                "release_date": "2021-07-02",
+                "title": "The 8th Night",
+                "video": false,
+                "vote_average": 6.3,
+                "vote_count": 50
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/kujUJjGGKNN2d7G5NcCnplZPfGd.jpg",
+                "genre_ids": [
+                    28,
+                    53,
+                    18
+                ],
+                "id": 33273,
+                "original_language": "es",
+                "original_title": "Celda 211",
+                "overview": "The story of two men on different sides of a prison riot -- the inmate leading the rebellion and the young guard trapped in the revolt, who poses as a prisoner in a desperate attempt to survive the ordeal.",
+                "popularity": 119.517,
+                "poster_path": "/koap5B3bQHQi3yaZ39vpWR66TGP.jpg",
+                "release_date": "2009-11-06",
+                "title": "Cell 211",
+                "video": false,
+                "vote_average": 7.5,
+                "vote_count": 908
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/jOh79POQu4hyVIseUxdQxTW7vOf.jpg",
+                "genre_ids": [
+                    12,
+                    14,
+                    28
+                ],
+                "id": 22,
+                "original_language": "en",
+                "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+                "overview": "Jack Sparrow, a freewheeling 18th-century pirate, quarrels with a rival pirate bent on pillaging Port Royal. When the governor's daughter is kidnapped, Sparrow decides to help the girl's love save her.",
+                "popularity": 101.385,
+                "poster_path": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+                "release_date": "2003-07-09",
+                "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+                "video": false,
+                "vote_average": 7.8,
+                "vote_count": 16548
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/pmZiChyJs5Y0tz7sMAiZNNIo9z4.jpg",
+                "genre_ids": [
+                    14,
+                    16,
+                    10751
+                ],
+                "id": 408,
+                "original_language": "en",
+                "original_title": "Snow White and the Seven Dwarfs",
+                "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+                "popularity": 93.152,
+                "poster_path": "/4UvFMz8Ys0TaTTxma5e2tKj8u61.jpg",
+                "release_date": "1938-02-04",
+                "title": "Snow White and the Seven Dwarfs",
+                "video": false,
+                "vote_average": 7.1,
+                "vote_count": 5891
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8y556k6ihZeYv2OXcFHTdMJKp1m.jpg",
+                "genre_ids": [
+                    27,
+                    53
+                ],
+                "id": 767504,
+                "original_language": "en",
+                "original_title": "Black as Night",
+                "overview": "A teenage girl with self-esteem issues finds confidence in the most unlikely way, by spending her summer battling vampires that prey on New Orleans' disenfranchised with the help of her best friend, the boy she's always pined for, and a peculiar rich girl.",
+                "popularity": 107.052,
+                "poster_path": "/mx6cgtUiEOVGSI3sb3SNQxAXqRa.jpg",
+                "release_date": "2021-10-01",
+                "title": "Black as Night",
+                "video": false,
+                "vote_average": 5.5,
+                "vote_count": 40
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/syjh4WJARo5gwjyUYxOPOElWGWh.jpg",
+                "genre_ids": [
+                    27,
+                    53
+                ],
+                "id": 698320,
+                "original_language": "en",
+                "original_title": "The Mad Hatter",
+                "overview": "An eccentric professor takes four of his students to the mansion of the “Mad Hatter”, an urban legend driven insane by mercury poisoning and grief. He says that there’s nothing to worry about now: the strange, shambling “caretakers” that haunt the home are merely servants that have fallen to inbreeding, and the Hatter himself has been dead for years. But as the students start disappearing one by one, those that remain start to question if the professor’s experiment is truly scientific...and if the Hatter didn’t just succumb to his madness, but decided to spread it...",
+                "popularity": 107.283,
+                "poster_path": "/lTUfalNirpq7SBASa6lnzs27iam.jpg",
+                "release_date": "2021-01-29",
+                "title": "The Mad Hatter",
+                "video": false,
+                "vote_average": 5.9,
+                "vote_count": 44
             }
         ]
     },
     {
         "id" : 4,
-        "name" : "2021 Films Ranked",
-        "description" : "Top Rated based on my opinion",
+        "name" : "Best Ever Movies",
+        "description" : "Top movies ever made or whatever",
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 144,
+            "username" : "Chris",
+            "avatarUrl" : "https://i.imgur.com/0B50vSQ.jpeg"
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/5hNcsnMkwU2LknLoru73c76el3z.jpg",
+                "genre_ids": [
+                    35,
+                    18,
+                    10749
+                ],
+                "id": 19404,
+                "original_language": "hi",
+                "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+                "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+                "popularity": 25.737,
+                "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+                "release_date": "1995-10-20",
+                "title": "Dilwale Dulhania Le Jayenge",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 3200
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
+                "genre_ids": [
+                    18,
+                    80
+                ],
+                "id": 278,
+                "original_language": "en",
+                "original_title": "The Shawshank Redemption",
+                "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+                "popularity": 68.485,
+                "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+                "release_date": "1994-09-23",
+                "title": "The Shawshank Redemption",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 19960
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
+                "genre_ids": [
+                    18,
+                    80
+                ],
+                "id": 238,
+                "original_language": "en",
+                "original_title": "The Godfather",
+                "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+                "popularity": 58.93,
+                "poster_path": "/eEslKSwcqmiNS6va24Pbxf2UKmJ.jpg",
+                "release_date": "1972-03-14",
+                "title": "The Godfather",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 14966
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
+                "genre_ids": [
+                    10749
+                ],
+                "id": 724089,
+                "original_language": "en",
+                "original_title": "Gabriel's Inferno Part II",
+                "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
+                "popularity": 9.227,
+                "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
+                "release_date": "2020-07-31",
+                "title": "Gabriel's Inferno Part II",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 1316
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
+                "genre_ids": [
+                    10749,
+                    35
+                ],
+                "id": 761053,
+                "original_language": "en",
+                "original_title": "Gabriel's Inferno Part III",
+                "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
+                "popularity": 21.405,
+                "poster_path": "/qtX2Fg9MTmrbgN1UUvGoCsImTM8.jpg",
+                "release_date": "2020-11-19",
+                "title": "Gabriel's Inferno Part III",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 884
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
+                "genre_ids": [
+                    16,
+                    28,
+                    18,
+                    878
+                ],
+                "id": 283566,
+                "original_language": "ja",
+                "original_title": "シン・エヴァンゲリオン劇場版:||",
+                "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka, and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each of them live a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
+                "popularity": 167.505,
+                "poster_path": "/jDwZavHo99JtGsCyRzp4epeeBHx.jpg",
+                "release_date": "2021-03-08",
+                "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 350
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
+                "genre_ids": [
+                    10749
+                ],
+                "id": 696374,
+                "original_language": "en",
+                "original_title": "Gabriel's Inferno",
+                "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
+                "popularity": 8.02,
+                "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
+                "release_date": "2020-05-29",
+                "title": "Gabriel's Inferno",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 2131
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+                "genre_ids": [
+                    18,
+                    36,
+                    10752
+                ],
+                "id": 424,
+                "original_language": "en",
+                "original_title": "Schindler's List",
+                "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+                "popularity": 35.884,
+                "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+                "release_date": "1993-11-30",
+                "title": "Schindler's List",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 11953
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
+                "genre_ids": [
+                    18,
+                    80
+                ],
+                "id": 240,
+                "original_language": "en",
+                "original_title": "The Godfather: Part II",
+                "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+                "popularity": 37.581,
+                "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+                "release_date": "1974-12-20",
+                "title": "The Godfather: Part II",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 8995
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/l5K9elugftlcyIHHm4nylvsn26X.jpg",
+                "genre_ids": [
+                    18
+                ],
+                "id": 255709,
+                "original_language": "ko",
+                "original_title": "소원",
+                "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
+                "popularity": 8.457,
+                "poster_path": "/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
+                "release_date": "2013-10-02",
+                "title": "Hope",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 221
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
+                "genre_ids": [
+                    10749,
+                    16,
+                    18
+                ],
+                "id": 372058,
+                "original_language": "ja",
+                "original_title": "君の名は。",
+                "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+                "popularity": 142.246,
+                "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+                "release_date": "2016-08-26",
+                "title": "Your Name.",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 7985
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/bf9shWfUKyEB5oB7awJeKIoCehl.jpg",
+                "genre_ids": [
+                    16,
+                    10751,
+                    14
+                ],
+                "id": 129,
+                "original_language": "ja",
+                "original_title": "千と千尋の神隠し",
+                "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+                "popularity": 74.876,
+                "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+                "release_date": "2001-07-20",
+                "title": "Spirited Away",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 11956
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/u1wHUA0R48FH4WV3sGqjwx3aNZm.jpg",
+                "genre_ids": [
+                    16,
+                    18,
+                    10402,
+                    10749
+                ],
+                "id": 632632,
+                "original_language": "ja",
+                "original_title": "映画 ギヴン",
+                "overview": "The film centers on the love relationship among the band's bassist Haruki Nakayama, drummer Akihiko Kaji, and Akihiko's roommate and ex-boyfriend Ugetsu Murata.",
+                "popularity": 114.513,
+                "poster_path": "/xKCtoYHUyX8zAg68eemnYa2orep.jpg",
+                "release_date": "2020-08-22",
+                "title": "Given",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 260
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+                "genre_ids": [
+                    35,
+                    53,
+                    18
+                ],
+                "id": 496243,
+                "original_language": "ko",
+                "original_title": "기생충",
+                "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+                "popularity": 84.327,
+                "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+                "release_date": "2019-05-30",
+                "title": "Parasite",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 12370
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+                "genre_ids": [
+                    14,
+                    18,
+                    80
+                ],
+                "id": 497,
+                "original_language": "en",
+                "original_title": "The Green Mile",
+                "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+                "popularity": 59.174,
+                "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+                "release_date": "1999-12-10",
+                "title": "The Green Mile",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 12946
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+                "genre_ids": [
+                    18
+                ],
+                "id": 389,
+                "original_language": "en",
+                "original_title": "12 Angry Men",
+                "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+                "popularity": 23.404,
+                "poster_path": "/e02s4wmTAExkKg0yF4dEG98ZRpK.jpg",
+                "release_date": "1957-04-10",
+                "title": "12 Angry Men",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 5917
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg",
+                "genre_ids": [
+                    16,
+                    10751,
+                    12,
+                    14
+                ],
+                "id": 441130,
+                "original_language": "en",
+                "original_title": "Wolfwalkers",
+                "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
+                "popularity": 23.411,
+                "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
+                "release_date": "2020-10-26",
+                "title": "Wolfwalkers",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 591
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
+                "genre_ids": [
+                    18,
+                    35
+                ],
+                "id": 644479,
+                "original_language": "es",
+                "original_title": "Dedicada a mi ex",
+                "overview": "The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their relationship and reunite with his ex-girlfriend, which breaks due to the trip she must make to Finland for an internship. Ariel with her friend Ortega, decides to make a casting to find the other members of the band, although they do not know nothing about music, thus forming a band with members that have diverse and opposite personalities.",
+                "popularity": 23.598,
+                "poster_path": "/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
+                "release_date": "2019-11-01",
+                "title": "Dedicated to my ex",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 424
             }
         ]
-    },    
+    },
     {
-        "id" : 5,
-        "name" : "Book Adaptations",
-        "description" : "My favorite book adaptations",
+        "id" : 1,
+        "name" : "Detective Movies",
+        "description" : "A list of detecive, mystery noir/neo-noir movies.",
         "user" : {
             "id" : 1,
             "username" : "ak-http",
@@ -82,101 +1267,1252 @@
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
+                "genre_ids": [
+                    80,
+                    9648,
+                    53
+                ],
+                "id": 807,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Se7en",
+                "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
+                "popularity": 38.188,
+                "poster_path": "/69Sns8WoET6CfaYlIkHbla4l7nC.jpg",
+                "release_date": "1995-09-22",
+                "title": "Se7en",
+                "video": false,
+                "vote_average": 8.3,
+                "vote_count": 15947
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/mfJepkInUbiZ0mFXFhDNz8ko6Zr.jpg",
+                "genre_ids": [
+                    18,
+                    9648,
+                    53
+                ],
+                "id": 1124,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Prestige",
+                "overview": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
+                "popularity": 22.218,
+                "poster_path": "/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg",
+                "release_date": "2006-10-19",
+                "title": "The Prestige",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 12253
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+                "genre_ids": [
+                    14,
+                    18,
+                    80
+                ],
+                "id": 497,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Green Mile",
+                "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+                "popularity": 59.174,
+                "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+                "release_date": "1999-12-10",
+                "title": "The Green Mile",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 12946
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/q2CtXYjp9IlnfBcPktNkBPsuAEO.jpg",
+                "genre_ids": [
+                    9648,
+                    53
+                ],
+                "id": 77,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Memento",
+                "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+                "popularity": 23.558,
+                "poster_path": "/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg",
+                "release_date": "2000-10-11",
+                "title": "Memento",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 11534
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/U8QRD7jvTXEYsUXq74IFKaSiL5.jpg",
+                "genre_ids": [
+                    18,
+                    53,
+                    9648
+                ],
+                "id": 11324,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Shutter Island",
+                "overview": "World War II soldier-turned-U.S. Marshal Teddy Daniels investigates the disappearance of a patient from a hospital for the criminally insane, but his efforts are compromised by his troubling visions and also by a mysterious doctor.",
+                "popularity": 49.622,
+                "poster_path": "/52d7CAjnwh1cZXd2lhKaHVFMu0Q.jpg",
+                "release_date": "2010-02-14",
+                "title": "Shutter Island",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 18707
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/6CLV2HakYO1tyAV5GUHOeNPyaTd.jpg",
+                "genre_ids": [
+                    18,
+                    80,
+                    53
+                ],
+                "id": 629,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Usual Suspects",
+                "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+                "popularity": 20.415,
+                "poster_path": "/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg",
+                "release_date": "1995-07-19",
+                "title": "The Usual Suspects",
+                "video": false,
+                "vote_average": 8.2,
+                "vote_count": 8079
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+                "genre_ids": [
+                    9648,
+                    53,
+                    18
+                ],
+                "id": 745,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Sixth Sense",
+                "overview": "Following an unexpected tragedy, a child psychologist named Malcolm Crowe meets an nine year old boy named Cole Sear, who is hiding a dark secret.",
+                "popularity": 27.87,
+                "poster_path": "/fIssD3w3SvIhPPmVo4WMgZDVLID.jpg",
+                "release_date": "1999-08-06",
+                "title": "The Sixth Sense",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 8975
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/x9ezMgOtDPqHatHDvxEG0ILb6Ie.jpg",
+                "genre_ids": [
+                    9648,
+                    53,
+                    18
+                ],
+                "id": 210577,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Gone Girl",
+                "overview": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+                "popularity": 38.396,
+                "poster_path": "/qymaJhucquUwjpb8oiqynMeXnID.jpg",
+                "release_date": "2014-10-01",
+                "title": "Gone Girl",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 14877
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/n5A7brJCjejceZmHyujwUTVgQNC.jpg",
+                "genre_ids": [
+                    14,
+                    12
+                ],
+                "id": 12445,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+                "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
+                "popularity": 173.89,
+                "poster_path": "/da22ZBmrDOXOCDRvr8Gic8ldhv4.jpg",
+                "release_date": "2011-07-07",
+                "title": "Harry Potter and the Deathly Hallows: Part 2",
+                "video": false,
+                "vote_average": 8.1,
+                "vote_count": 16311
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+                "genre_ids": [
+                    14,
+                    18,
+                    9648
+                ],
+                "id": 141,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Donnie Darko",
+                "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
+                "popularity": 29.777,
+                "poster_path": "/fhQoQfejY1hUcwyuLgpBrYs6uFt.jpg",
+                "release_date": "2001-10-26",
+                "title": "Donnie Darko",
+                "video": false,
+                "vote_average": 7.8,
+                "vote_count": 9819
             }
         ]
-    },    
+    },
     {
-        "id" : 6,
-        "name" : "Capeshit",
-        "description" : "capeshit",
+        "id" : 2,
+        "name" : "The movies everyone has seen!",
+        "description" : "Have you been living under a rock?",
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 2,
+            "username" : "msimonetta",
+            "avatarUrl" : "https://i.imgur.com/pBcut2e.jpeg"
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/qCU097AXMPAsmpVK4j9kzMTxt2d.jpg",
+                "genre_ids": [
+                    12,
+                    14,
+                    10751
+                ],
+                "id": 630,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Wizard of Oz",
+                "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+                "popularity": 55.138,
+                "poster_path": "/bSA6DbAC5gdkaooU164lQUX6rVs.jpg",
+                "release_date": "1939-08-15",
+                "title": "The Wizard of Oz",
+                "video": false,
+                "vote_average": 7.6,
+                "vote_count": 4305
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/6VmFqApQRyZZzmiGOQq2C92jyvH.jpg",
+                "genre_ids": [
+                    18,
+                    10749
+                ],
+                "id": 597,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Titanic",
+                "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
+                "popularity": 91.236,
+                "poster_path": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+                "release_date": "1997-11-18",
+                "title": "Titanic",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 19943
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/mXLVA0YL6tcXi6SJSuAh9ONXFj5.jpg",
+                "genre_ids": [
+                    878,
+                    12,
+                    10751,
+                    14
+                ],
+                "id": 601,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "E.T. the Extra-Terrestrial",
+                "overview": "After a gentle alien becomes stranded on Earth, the being is discovered and befriended by a young boy named Elliott. Bringing the extraterrestrial into his suburban California house, Elliott introduces E.T., as the alien is dubbed, to his brother and his little sister, Gertie, and the children decide to keep its existence a secret. Soon, however, E.T. falls ill, resulting in government intervention and a dire situation for both Elliott and the alien.",
+                "popularity": 23.002,
+                "poster_path": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+                "release_date": "1982-06-11",
+                "title": "E.T. the Extra-Terrestrial",
+                "video": false,
+                "vote_average": 7.5,
+                "vote_count": 9002
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/um7dCYud1VGIsjTmSTvhO0QNTFr.jpg",
+                "genre_ids": [
+                    12,
+                    878
+                ],
+                "id": 329,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Jurassic Park",
+                "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+                "popularity": 19.372,
+                "poster_path": "/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+                "release_date": "1993-06-11",
+                "title": "Jurassic Park",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 12728
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+                "genre_ids": [
+                    16,
+                    12,
+                    10751,
+                    35
+                ],
+                "id": 862,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Toy Story",
+                "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+                "popularity": 157.359,
+                "poster_path": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+                "release_date": "1995-10-30",
+                "title": "Toy Story",
+                "video": false,
+                "vote_average": 8,
+                "vote_count": 14573
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/3nYlM34QhzdtAvWRV5bN4nLtnTc.jpg",
+                "genre_ids": [
+                    27,
+                    53,
+                    12
+                ],
+                "id": 578,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Jaws",
+                "overview": "When an insatiable great white shark terrorizes the townspeople of Amity Island, the police chief, an oceanographer and a grizzled shark hunter seek to destroy the blood-thirsty beast.",
+                "popularity": 46.729,
+                "poster_path": "/s2xcqSFfT6F7ZXHxowjxfG0yisT.jpg",
+                "release_date": "1975-06-18",
+                "title": "Jaws",
+                "video": false,
+                "vote_average": 7.6,
+                "vote_count": 7813
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
+                "genre_ids": [
+                    10751,
+                    16,
+                    18
+                ],
+                "id": 8587,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "The Lion King",
+                "overview": "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?",
+                "popularity": 131.657,
+                "poster_path": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+                "release_date": "1994-06-23",
+                "title": "The Lion King",
+                "video": false,
+                "vote_average": 8.3,
+                "vote_count": 14530
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/vaVaNrscmsG8CUKYxiwZGFNqGJo.jpg",
+                "genre_ids": [
+                    35,
+                    10751
+                ],
+                "id": 771,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Home Alone",
+                "overview": "Eight-year-old Kevin McCallister makes the most of the situation after his family unwittingly leaves him behind when they go on Christmas vacation. But when a pair of bungling burglars set their sights on Kevin's house, the plucky kid stands ready to defend his territory. By planting booby traps galore, adorably mischievous Kevin stands his ground as his frantic mother attempts to race home before Christmas Day.",
+                "popularity": 2.421,
+                "poster_path": "/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg",
+                "release_date": "1990-11-16",
+                "title": "Home Alone",
+                "video": false,
+                "vote_average": 7.3,
+                "vote_count": 8299
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
+                "genre_ids": [
+                    35,
+                    18,
+                    10749
+                ],
+                "id": 13,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Forrest Gump",
+                "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+                "popularity": 43.723,
+                "poster_path": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+                "release_date": "1994-07-06",
+                "title": "Forrest Gump",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 21448
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/kCiMExsYuNhYluHxPP2OTmWw7hp.jpg",
+                "genre_ids": [
+                    12,
+                    28
+                ],
+                "id": 85,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Raiders of the Lost Ark",
+                "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+                "popularity": 26.92,
+                "poster_path": "/awUGN7ZCNq2EUTdpVaHDX23anOZ.jpg",
+                "release_date": "1981-06-12",
+                "title": "Raiders of the Lost Ark",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 9541
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/koSWhCzMJfJOramu4KD0ZZifqpi.jpg",
+                "genre_ids": [
+                    10749,
+                    35
+                ],
+                "id": 621,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Grease",
+                "overview": "Australian good girl Sandy and greaser Danny fell in love over the summer. But when they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance despite their eccentric friends?",
+                "popularity": 35.4,
+                "poster_path": "/czVhhAaSBFpakur7U8pOIDV9NUG.jpg",
+                "release_date": "1978-07-07",
+                "title": "Grease",
+                "video": false,
+                "vote_average": 7.4,
+                "vote_count": 5778
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/fq3wyOs1RHyz2yfzsb4sck7aWRG.jpg",
+                "genre_ids": [
+                    12,
+                    35,
+                    878,
+                    10751
+                ],
+                "id": 105,
+                "media_type": "movie",
+                "original_language": "en",
+                "original_title": "Back to the Future",
+                "overview": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.",
+                "popularity": 49.125,
+                "poster_path": "/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg",
+                "release_date": "1985-07-03",
+                "title": "Back to the Future",
+                "video": false,
+                "vote_average": 8.3,
+                "vote_count": 15712
             }
         ]
-    },    
+    },
     {
-        "id" : 7,
-        "name" : "French movies",
-        "description" : "French noir, arthouse cinema",
+        "id" : 3,
+        "name" : "popular films",
+        "description" : "sneed",
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 3,
+            "username" : "Hunter",
+            "avatarUrl" : ""
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/nlG452icactoT6hbqECbSEVfGII.jpg",
+                "genre_ids": [
+                    16,
+                    12,
+                    35,
+                    10751,
+                    14
+                ],
+                "id": 228326,
+                "original_language": "en",
+                "original_title": "The Book of Life",
+                "overview": "The journey of Manolo, a young man who is torn between fulfilling the expectations of his family and following his heart. Before choosing which path to follow, he embarks on an incredible adventure that spans three fantastical worlds where he must face his greatest fears.",
+                "popularity": 129.517,
+                "poster_path": "/puTDvsUADxCA5NjJuwgEWqQ3xGA.jpg",
+                "release_date": "2014-10-01",
+                "title": "The Book of Life",
+                "video": false,
+                "vote_average": 7.5,
+                "vote_count": 2009
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+                "genre_ids": [
+                    12,
+                    14,
+                    28
+                ],
+                "id": 120,
+                "original_language": "en",
+                "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+                "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+                "popularity": 94.742,
+                "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+                "release_date": "2001-12-18",
+                "title": "The Lord of the Rings: The Fellowship of the Ring",
+                "video": false,
+                "vote_average": 8.4,
+                "vote_count": 19897
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8kZT97Ml1ZyawrfHCajmP2b0wPC.jpg",
+                "genre_ids": [
+                    27,
+                    53
+                ],
+                "id": 11187,
+                "original_language": "en",
+                "original_title": "Child's Play 3",
+                "overview": "Eight years have passed since the events of the second film. Chucky has been resurrected once again and seeks revenge on Andy, his former owner, who is now a teenager enrolled in military school.",
+                "popularity": 126.76,
+                "poster_path": "/6toMk9OCuDYEEf733Bzlq3yiw3z.jpg",
+                "release_date": "1991-08-30",
+                "title": "Child's Play 3",
+                "video": false,
+                "vote_average": 5.9,
+                "vote_count": 1054
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/ijH9rW7IzseQPfHjRQQQ8fGjfYn.jpg",
+                "genre_ids": [
+                    18
+                ],
+                "id": 817566,
+                "original_language": "es",
+                "original_title": "Solo una vez",
+                "overview": "",
+                "popularity": 109.254,
+                "poster_path": "/xdUvxxTSzZYz2LeSbyEld7JZYmp.jpg",
+                "release_date": "2021-06-11",
+                "title": "Solo una vez",
+                "video": false,
+                "vote_average": 4.7,
+                "vote_count": 3
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/ckCrunvxJ1SqL1w4goJGGGZ5PGP.jpg",
+                "genre_ids": [
+                    18,
+                    80,
+                    53
+                ],
+                "id": 616651,
+                "original_language": "en",
+                "original_title": "Stillwater",
+                "overview": "Bill Baker, an American oil-rig roughneck from Oklahoma, travels to Marseille to visit his estranged daughter, Allison, who is in prison for a murder she claims she did not commit. Confronted with language barriers, cultural differences, and a complicated legal system, Bill builds a new life for himself in France as he makes it his personal mission to exonerate his daughter.",
+                "popularity": 123.828,
+                "poster_path": "/cPdmPwcIcmu0ugfKcdFtI3vmOJq.jpg",
+                "release_date": "2021-07-29",
+                "title": "Stillwater",
+                "video": false,
+                "vote_average": 7,
+                "vote_count": 332
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/kbI9M2m45SSwi3t5ztygAlKxUql.jpg",
+                "genre_ids": [
+                    16,
+                    28,
+                    878
+                ],
+                "id": 44251,
+                "original_language": "ja",
+                "original_title": "ドラゴンボールＺ 危険なふたり！超戦士はねむれない",
+                "overview": "A Saiyan Space pod crash-lands on Earth out of which a wounded Saiyan crawls: Broly, the Legendary Super Saiyan. The wounded Broly shouts out in frustration and turns into normal form. The place soon freezes, trapping him in it and he falls into a coma.",
+                "popularity": 110.596,
+                "poster_path": "/4CkArpSqySpBQH95Oqr94ktU6rU.jpg",
+                "release_date": "1994-03-12",
+                "title": "Dragon Ball Z: Broly – Second Coming",
+                "video": false,
+                "vote_average": 6.7,
+                "vote_count": 470
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/rbB7g8YBFMLKtmwB8QEvVlKh5Yh.jpg",
+                "genre_ids": [
+                    80,
+                    18,
+                    28,
+                    53,
+                    878
+                ],
+                "id": 42194,
+                "original_language": "en",
+                "original_title": "TEKKEN",
+                "overview": "In the year of 2039, after World Wars destroy much of the civilization as we know it, territories are no longer run by governments, but by corporations; the mightiest of which is the Mishima Zaibatsu. In order to placate the seething masses of this dystopia, Mishima sponsors Tekken, a tournament in which fighters battle until only one is left standing.",
+                "popularity": 122.824,
+                "poster_path": "/1xO2LirDZstkqZic1FwfK6GJIHH.jpg",
+                "release_date": "2010-03-20",
+                "title": "TEKKEN",
+                "video": false,
+                "vote_average": 5.4,
+                "vote_count": 511
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/aiQICxiWNcOsJruYxdPuhb6WtWu.jpg",
+                "genre_ids": [
+                    9648,
+                    18,
+                    27,
+                    12,
+                    16
+                ],
+                "id": 658558,
+                "original_language": "ja",
+                "original_title": "劇場版 巨蟲列島",
+                "overview": "After an airplane crash during a school trip, Oribe Mutsumi and her classmates were stranded on a seemingly deserted island. Mutsumi found the other survivors, and used her wilderness knowledge to help them. She expects that they will be rescued in about three days, which doesn't seem so long to endure. However, she didn't account for the fact that the island is populated with gigantic killer insects. Her knowledge of butterflies, wasps, and more may be the only thing that will help any of her classmates survive to be rescued!",
+                "popularity": 115.121,
+                "poster_path": "/uJFki1BLHvEi4gaPCJvy9SZQZpx.jpg",
+                "release_date": "2020-01-10",
+                "title": "The Island of Giant Insects",
+                "video": false,
+                "vote_average": 4.9,
+                "vote_count": 10
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/9N3KKOKpqEFe9GhHaIVHwk9N1Y.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    10751,
+                    14
+                ],
+                "id": 76492,
+                "original_language": "en",
+                "original_title": "Hotel Transylvania",
+                "overview": "Welcome to Hotel Transylvania, Dracula's lavish five-stake resort, where monsters and their families can live it up and no humans are allowed. One special weekend, Dracula has invited all his best friends to celebrate his beloved daughter Mavis's 118th birthday. For Dracula catering to all of these legendary monsters is no problem but the party really starts when one ordinary guy stumbles into the hotel and changes everything!",
+                "popularity": 126.419,
+                "poster_path": "/eJGvzGrsfe2sqTUPv5IwLWXjVuR.jpg",
+                "release_date": "2012-09-20",
+                "title": "Hotel Transylvania",
+                "video": false,
+                "vote_average": 6.9,
+                "vote_count": 6925
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+                "genre_ids": [
+                    16,
+                    35,
+                    14,
+                    12,
+                    10751
+                ],
+                "id": 808,
+                "original_language": "en",
+                "original_title": "Shrek",
+                "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+                "popularity": 125.361,
+                "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+                "release_date": "2001-05-18",
+                "title": "Shrek",
+                "video": false,
+                "vote_average": 7.7,
+                "vote_count": 13009
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/tcvPFdANexMxEsIUZnzjxBJbgkb.jpg",
+                "genre_ids": [
+                    35
+                ],
+                "id": 4248,
+                "original_language": "en",
+                "original_title": "Scary Movie 2",
+                "overview": "While the original parodied slasher flicks like Scream, Keenen Ivory Wayans's sequel to Scary Movie takes comedic aim at haunted house movies. A group of students visit a mansion called \"Hell House,\" and murderous high jinks ensue.",
+                "popularity": 120.571,
+                "poster_path": "/7Eb1JWK0Cb0rbfsYjwfc9g0PbQH.jpg",
+                "release_date": "2001-07-04",
+                "title": "Scary Movie 2",
+                "video": false,
+                "vote_average": 5.8,
+                "vote_count": 3480
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/2AFZyra0Ddwl2oBDhClvD1qSIL6.jpg",
+                "genre_ids": [
+                    27,
+                    878
+                ],
+                "id": 340102,
+                "original_language": "en",
+                "original_title": "The New Mutants",
+                "overview": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+                "popularity": 120.811,
+                "poster_path": "/xZNw9xxtwbEf25NYoz52KdbXHPM.jpg",
+                "release_date": "2020-08-26",
+                "title": "The New Mutants",
+                "video": false,
+                "vote_average": 6.3,
+                "vote_count": 2361
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/pO1SnM5a1fEsYrFaVZW78Wb0zRJ.jpg",
+                "genre_ids": [
+                    10751,
+                    16,
+                    12,
+                    35,
+                    10770
+                ],
+                "id": 677638,
+                "original_language": "en",
+                "original_title": "We Bare Bears: The Movie",
+                "overview": "When Grizz, Panda, and Ice Bear's love of food trucks and viral videos get out of hand, the brothers are now chased away from their home and embark on a trip to Canada, where they can live in peace.",
+                "popularity": 102.421,
+                "poster_path": "/kPzcvxBwt7kEISB9O4jJEuBn72t.jpg",
+                "release_date": "2020-06-30",
+                "title": "We Bare Bears: The Movie",
+                "video": false,
+                "vote_average": 7.9,
+                "vote_count": 686
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/sNQWRiwOc1R261yg7XVXxq0b5F9.jpg",
+                "genre_ids": [
+                    16
+                ],
+                "id": 812456,
+                "original_language": "en",
+                "original_title": "Barbie & Chelsea: The Lost Birthday",
+                "overview": "Enjoy high-sea thrills as Barbie, Chelsea and the rest of the Roberts family set sail on an adventure cruise.  \"Barbie & Chelsea The Lost Birthday\" tells the story of Chelsea, Barbie’s precocious youngest sister, and the rest of the Roberts family as they set sail on an adventure cruise for her seventh birthday. When they cross the International Date Line, Chelsea discovers her actual birthday has been lost and she embarks on a fantastical journey through an enchanted jungle island in order to save it.",
+                "popularity": 114.681,
+                "poster_path": "/yZdVDxLXbz4yucwMy1yTCGTYNVC.jpg",
+                "release_date": "2021-05-14",
+                "title": "Barbie & Chelsea: The Lost Birthday",
+                "video": false,
+                "vote_average": 7.2,
+                "vote_count": 57
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/4jKbWxfIpuzPvSCUKGVVjF2L5mV.jpg",
+                "genre_ids": [
+                    9648,
+                    53,
+                    27
+                ],
+                "id": 604360,
+                "original_language": "ko",
+                "original_title": "제8일의 밤",
+                "overview": "With prayer beads in one hand and an ax in the other, a monk hunts down a millennia-old spirit that's possessing humans and unleashing hell on Earth.",
+                "popularity": 99.257,
+                "poster_path": "/trSDStH3UP4ux4lAILNNSqDXSB3.jpg",
+                "release_date": "2021-07-02",
+                "title": "The 8th Night",
+                "video": false,
+                "vote_average": 6.3,
+                "vote_count": 50
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/kujUJjGGKNN2d7G5NcCnplZPfGd.jpg",
+                "genre_ids": [
+                    28,
+                    53,
+                    18
+                ],
+                "id": 33273,
+                "original_language": "es",
+                "original_title": "Celda 211",
+                "overview": "The story of two men on different sides of a prison riot -- the inmate leading the rebellion and the young guard trapped in the revolt, who poses as a prisoner in a desperate attempt to survive the ordeal.",
+                "popularity": 119.517,
+                "poster_path": "/koap5B3bQHQi3yaZ39vpWR66TGP.jpg",
+                "release_date": "2009-11-06",
+                "title": "Cell 211",
+                "video": false,
+                "vote_average": 7.5,
+                "vote_count": 908
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/jOh79POQu4hyVIseUxdQxTW7vOf.jpg",
+                "genre_ids": [
+                    12,
+                    14,
+                    28
+                ],
+                "id": 22,
+                "original_language": "en",
+                "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+                "overview": "Jack Sparrow, a freewheeling 18th-century pirate, quarrels with a rival pirate bent on pillaging Port Royal. When the governor's daughter is kidnapped, Sparrow decides to help the girl's love save her.",
+                "popularity": 101.385,
+                "poster_path": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+                "release_date": "2003-07-09",
+                "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+                "video": false,
+                "vote_average": 7.8,
+                "vote_count": 16548
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/pmZiChyJs5Y0tz7sMAiZNNIo9z4.jpg",
+                "genre_ids": [
+                    14,
+                    16,
+                    10751
+                ],
+                "id": 408,
+                "original_language": "en",
+                "original_title": "Snow White and the Seven Dwarfs",
+                "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+                "popularity": 93.152,
+                "poster_path": "/4UvFMz8Ys0TaTTxma5e2tKj8u61.jpg",
+                "release_date": "1938-02-04",
+                "title": "Snow White and the Seven Dwarfs",
+                "video": false,
+                "vote_average": 7.1,
+                "vote_count": 5891
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/8y556k6ihZeYv2OXcFHTdMJKp1m.jpg",
+                "genre_ids": [
+                    27,
+                    53
+                ],
+                "id": 767504,
+                "original_language": "en",
+                "original_title": "Black as Night",
+                "overview": "A teenage girl with self-esteem issues finds confidence in the most unlikely way, by spending her summer battling vampires that prey on New Orleans' disenfranchised with the help of her best friend, the boy she's always pined for, and a peculiar rich girl.",
+                "popularity": 107.052,
+                "poster_path": "/mx6cgtUiEOVGSI3sb3SNQxAXqRa.jpg",
+                "release_date": "2021-10-01",
+                "title": "Black as Night",
+                "video": false,
+                "vote_average": 5.5,
+                "vote_count": 40
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/syjh4WJARo5gwjyUYxOPOElWGWh.jpg",
+                "genre_ids": [
+                    27,
+                    53
+                ],
+                "id": 698320,
+                "original_language": "en",
+                "original_title": "The Mad Hatter",
+                "overview": "An eccentric professor takes four of his students to the mansion of the “Mad Hatter”, an urban legend driven insane by mercury poisoning and grief. He says that there’s nothing to worry about now: the strange, shambling “caretakers” that haunt the home are merely servants that have fallen to inbreeding, and the Hatter himself has been dead for years. But as the students start disappearing one by one, those that remain start to question if the professor’s experiment is truly scientific...and if the Hatter didn’t just succumb to his madness, but decided to spread it...",
+                "popularity": 107.283,
+                "poster_path": "/lTUfalNirpq7SBASa6lnzs27iam.jpg",
+                "release_date": "2021-01-29",
+                "title": "The Mad Hatter",
+                "video": false,
+                "vote_average": 5.9,
+                "vote_count": 44
             }
         ]
-    },    
+    },
     {
-        "id" : 8,
-        "name" : "Kubrick Ranked",
-        "description" : "i'm monky",
+        "id" : 4,
+        "name" : "Best Ever Movies",
+        "description" : "Top movies ever made or whatever",
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 144,
+            "username" : "Chris",
+            "avatarUrl" : "https://i.imgur.com/0B50vSQ.jpeg"
         },
         "films" : [
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
-            }
-        ]
-    },    
-    {
-        "id" : 9,
-        "name" : "The Emoji movie",
-        "description" : "",
-        "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
-        },
-        "films" : [
+                "adult": false,
+                "backdrop_path": "/5hNcsnMkwU2LknLoru73c76el3z.jpg",
+                "genre_ids": [
+                    35,
+                    18,
+                    10749
+                ],
+                "id": 19404,
+                "original_language": "hi",
+                "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+                "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+                "popularity": 25.737,
+                "poster_path": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+                "release_date": "1995-10-20",
+                "title": "Dilwale Dulhania Le Jayenge",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 3200
+            },
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
-            }
-        ]
-    },    
-    {
-        "id" : 10,
-        "name" : "Most Anticipated",
-        "description" : "This is some scary stuff",
-        "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
-        },
-        "films" : [
+                "adult": false,
+                "backdrop_path": "/iNh3BivHyg5sQRPP1KOkzguEX0H.jpg",
+                "genre_ids": [
+                    18,
+                    80
+                ],
+                "id": 278,
+                "original_language": "en",
+                "original_title": "The Shawshank Redemption",
+                "overview": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+                "popularity": 68.485,
+                "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+                "release_date": "1994-09-23",
+                "title": "The Shawshank Redemption",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 19960
+            },
             {
-                "id" : 1,
-                "title" : "The Long Goodbye",
-                "release_date" : "1973-03-07",
-                "poster_path" : ""
+                "adult": false,
+                "backdrop_path": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
+                "genre_ids": [
+                    18,
+                    80
+                ],
+                "id": 238,
+                "original_language": "en",
+                "original_title": "The Godfather",
+                "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+                "popularity": 58.93,
+                "poster_path": "/eEslKSwcqmiNS6va24Pbxf2UKmJ.jpg",
+                "release_date": "1972-03-14",
+                "title": "The Godfather",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 14966
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/jtAI6OJIWLWiRItNSZoWjrsUtmi.jpg",
+                "genre_ids": [
+                    10749
+                ],
+                "id": 724089,
+                "original_language": "en",
+                "original_title": "Gabriel's Inferno Part II",
+                "overview": "Professor Gabriel Emerson finally learns the truth about Julia Mitchell's identity, but his realization comes a moment too late. Julia is done waiting for the well-respected Dante specialist to remember her and wants nothing more to do with him. Can Gabriel win back her heart before she finds love in another's arms?",
+                "popularity": 9.227,
+                "poster_path": "/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg",
+                "release_date": "2020-07-31",
+                "title": "Gabriel's Inferno Part II",
+                "video": false,
+                "vote_average": 8.7,
+                "vote_count": 1316
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
+                "genre_ids": [
+                    10749,
+                    35
+                ],
+                "id": 761053,
+                "original_language": "en",
+                "original_title": "Gabriel's Inferno Part III",
+                "overview": "The final part of the film adaption of the erotic romance novel Gabriel's Inferno written by an anonymous Canadian author under the pen name Sylvain Reynard.",
+                "popularity": 21.405,
+                "poster_path": "/qtX2Fg9MTmrbgN1UUvGoCsImTM8.jpg",
+                "release_date": "2020-11-19",
+                "title": "Gabriel's Inferno Part III",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 884
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/1EAxNqdkVnp48a7NUuNBHGflowM.jpg",
+                "genre_ids": [
+                    16,
+                    28,
+                    18,
+                    878
+                ],
+                "id": 283566,
+                "original_language": "ja",
+                "original_title": "シン・エヴァンゲリオン劇場版:||",
+                "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka, and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each of them live a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
+                "popularity": 167.505,
+                "poster_path": "/jDwZavHo99JtGsCyRzp4epeeBHx.jpg",
+                "release_date": "2021-03-08",
+                "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 350
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/w2uGvCpMtvRqZg6waC1hvLyZoJa.jpg",
+                "genre_ids": [
+                    10749
+                ],
+                "id": 696374,
+                "original_language": "en",
+                "original_title": "Gabriel's Inferno",
+                "overview": "An intriguing and sinful exploration of seduction, forbidden love, and redemption, Gabriel's Inferno is a captivating and wildly passionate tale of one man's escape from his own personal hell as he tries to earn the impossible--forgiveness and love.",
+                "popularity": 8.02,
+                "poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
+                "release_date": "2020-05-29",
+                "title": "Gabriel's Inferno",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 2131
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+                "genre_ids": [
+                    18,
+                    36,
+                    10752
+                ],
+                "id": 424,
+                "original_language": "en",
+                "original_title": "Schindler's List",
+                "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+                "popularity": 35.884,
+                "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+                "release_date": "1993-11-30",
+                "title": "Schindler's List",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 11953
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/poec6RqOKY9iSiIUmfyfPfiLtvB.jpg",
+                "genre_ids": [
+                    18,
+                    80
+                ],
+                "id": 240,
+                "original_language": "en",
+                "original_title": "The Godfather: Part II",
+                "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+                "popularity": 37.581,
+                "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+                "release_date": "1974-12-20",
+                "title": "The Godfather: Part II",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 8995
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/l5K9elugftlcyIHHm4nylvsn26X.jpg",
+                "genre_ids": [
+                    18
+                ],
+                "id": 255709,
+                "original_language": "ko",
+                "original_title": "소원",
+                "overview": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
+                "popularity": 8.457,
+                "poster_path": "/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
+                "release_date": "2013-10-02",
+                "title": "Hope",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 221
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg",
+                "genre_ids": [
+                    10749,
+                    16,
+                    18
+                ],
+                "id": 372058,
+                "original_language": "ja",
+                "original_title": "君の名は。",
+                "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+                "popularity": 142.246,
+                "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+                "release_date": "2016-08-26",
+                "title": "Your Name.",
+                "video": false,
+                "vote_average": 8.6,
+                "vote_count": 7985
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/bf9shWfUKyEB5oB7awJeKIoCehl.jpg",
+                "genre_ids": [
+                    16,
+                    10751,
+                    14
+                ],
+                "id": 129,
+                "original_language": "ja",
+                "original_title": "千と千尋の神隠し",
+                "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+                "popularity": 74.876,
+                "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+                "release_date": "2001-07-20",
+                "title": "Spirited Away",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 11956
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/u1wHUA0R48FH4WV3sGqjwx3aNZm.jpg",
+                "genre_ids": [
+                    16,
+                    18,
+                    10402,
+                    10749
+                ],
+                "id": 632632,
+                "original_language": "ja",
+                "original_title": "映画 ギヴン",
+                "overview": "The film centers on the love relationship among the band's bassist Haruki Nakayama, drummer Akihiko Kaji, and Akihiko's roommate and ex-boyfriend Ugetsu Murata.",
+                "popularity": 114.513,
+                "poster_path": "/xKCtoYHUyX8zAg68eemnYa2orep.jpg",
+                "release_date": "2020-08-22",
+                "title": "Given",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 260
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+                "genre_ids": [
+                    35,
+                    53,
+                    18
+                ],
+                "id": 496243,
+                "original_language": "ko",
+                "original_title": "기생충",
+                "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+                "popularity": 84.327,
+                "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+                "release_date": "2019-05-30",
+                "title": "Parasite",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 12370
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+                "genre_ids": [
+                    14,
+                    18,
+                    80
+                ],
+                "id": 497,
+                "original_language": "en",
+                "original_title": "The Green Mile",
+                "overview": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
+                "popularity": 59.174,
+                "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+                "release_date": "1999-12-10",
+                "title": "The Green Mile",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 12946
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+                "genre_ids": [
+                    18
+                ],
+                "id": 389,
+                "original_language": "en",
+                "original_title": "12 Angry Men",
+                "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+                "popularity": 23.404,
+                "poster_path": "/e02s4wmTAExkKg0yF4dEG98ZRpK.jpg",
+                "release_date": "1957-04-10",
+                "title": "12 Angry Men",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 5917
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/yHtB4KHNigx3ZoxDvQbW2SOXGfq.jpg",
+                "genre_ids": [
+                    16,
+                    10751,
+                    12,
+                    14
+                ],
+                "id": 441130,
+                "original_language": "en",
+                "original_title": "Wolfwalkers",
+                "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
+                "popularity": 23.411,
+                "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
+                "release_date": "2020-10-26",
+                "title": "Wolfwalkers",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 591
+            },
+            {
+                "adult": false,
+                "backdrop_path": "/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
+                "genre_ids": [
+                    18,
+                    35
+                ],
+                "id": 644479,
+                "original_language": "es",
+                "original_title": "Dedicada a mi ex",
+                "overview": "The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their relationship and reunite with his ex-girlfriend, which breaks due to the trip she must make to Finland for an internship. Ariel with her friend Ortega, decides to make a casting to find the other members of the band, although they do not know nothing about music, thus forming a band with members that have diverse and opposite personalities.",
+                "popularity": 23.598,
+                "poster_path": "/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
+                "release_date": "2019-11-01",
+                "title": "Dedicated to my ex",
+                "video": false,
+                "vote_average": 8.5,
+                "vote_count": 424
             }
         ]
     }
+
+   
 ]

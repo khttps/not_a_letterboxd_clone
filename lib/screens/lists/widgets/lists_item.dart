@@ -24,12 +24,14 @@ class ListsItem extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  list.name,
-                  style: const TextStyle(
-                    fontSize: 18.0,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white,
+                Expanded(
+                  child: Text(
+                    list.name,
+                    style: const TextStyle(
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
                 UserCard(user: list.user),
@@ -70,7 +72,7 @@ class _List extends StatelessWidget {
     return SizedBox(
       height: 85.0,
       child: ListView.builder(
-        itemCount: films.length,
+        itemCount: films.length > 12 ? 12 : films.length,
         addRepaintBoundaries: false,
         shrinkWrap: true,
         scrollDirection: Axis.horizontal,

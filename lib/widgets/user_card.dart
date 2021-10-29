@@ -30,9 +30,10 @@ class UserCard extends StatelessWidget {
           backgroundColor: Palette.border,
           child: CircleAvatar(
             radius: 15.5,
-            backgroundImage: CachedNetworkImageProvider(
-              user.avatarUrl!,
-            ),
+            backgroundImage:
+                user.avatarUrl != null && user.avatarUrl!.isNotEmpty
+                    ? CachedNetworkImageProvider(user.avatarUrl!)
+                    : Image.asset('assets/images/avatar.jpeg').image,
           ),
         ),
       ],
