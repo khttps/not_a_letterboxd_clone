@@ -4,6 +4,8 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
 
 ### Screenshots:
 
+![screen_1](https://i.ibb.co/LndhDZM/screen1.jpg) ![screen_2](https://i.ibb.co/vhy1Th1/screen2.jpg) ![screen_3](https://i.ibb.co/RPC8Wd2/screen3.jpg) ![screen 4](https://i.ibb.co/GWDZCvh/screen4.jpg) ![screen 5](https://i.ibb.co/MSn2s08/screen5.jpg)
+
 ### Screens implemented:
 
 - Tabs page
@@ -13,7 +15,7 @@ This is a Flutter clone of the Letterboxd app, but it doesn't look quite like it
 - Lists page
 - News page
 
-<del>### Screens to implement:<del>
+### ~~Screens to implement:~~
 
 ### Screens that I most likely won't be implementing but who knows:
 
