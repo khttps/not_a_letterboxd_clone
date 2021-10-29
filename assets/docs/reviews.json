@@ -16,7 +16,71 @@
         }
     },
     {
-        "id" : 1,
+        "id" : 2,
+        "text" : "I will never watch any kind of making-of documentary or behind-the-scenes featurette about Denis Villeneuve’s Dune. I don’t want to know how this film was made. I prefer to believe the extremely convincing illusion that Villeneuve somehow traveled to the year 10,191 and documented the strange civilization he encountered. Dune is full of stylization and visual artistry, but the future it conjures feel so complete and tactile that some segments play like a documentary of the world to come — which is an especially impressive feat since that world involves giant sandworms that consume everything that passes through their sphincter-like maws. Full review at ScreenCrush.",
+        "score" : 9.0,
+        "film" : {
+            "id" : 2,
+            "title" : "Dune",
+            "release_date" : "2021-09-15",
+            "poster_path" : "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+        }, 
+        "user" : {
+            "id" : 2,
+            "username" : "Matt Leblanc",
+            "avatarUrl" : "https://i.imgur.com/pBcut2e.jpeg"
+        }
+    },
+    {
+        "id" : 3,
+        "text" : "not bad if u ever just feel like staring at the color orange and not feeling a single emotion for two and a half hours",
+        "score" : 5.0,
+        "film" : {
+            "id" : 2,
+            "title" : "Dune",
+            "release_date" : "2021-09-15",
+            "poster_path" : "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+        }, 
+        "user" : {
+            "id" : 3,
+            "username" : "cookiejar",
+            "avatarUrl" : "https://i.imgur.com/oW1dGDI.jpeg"
+        }
+    },
+    {
+        "id" : 4,
+        "text" : "I feel like I just ate a perfectly cooked meal by one of my favorite chefs. Just the right number of courses. Delicious.",
+        "score" : 8.0,
+        "film" : {
+            "id" : 4,
+            "title" : "The French Dispatch",
+            "release_date" : "2021-10-21",
+            "poster_path" : "/u0PhyuslumkTuqwFNfN3CQ2cuQw.jpg"
+        }, 
+        "user" : {
+            "id" : 4,
+            "username" : "Patrice O'Neal",
+            "avatarUrl" : "https://i.imgur.com/aOUPaE3.jpeg"
+        }
+    },
+    {
+        "id" : 5,
+        "text": "Interesting...",
+        "score" : 7.0,
+        "film" : {
+            "id" : 4,
+            "title" : "The French Dispatch",
+            "release_date" : "2021-10-21",
+            "poster_path" : "/u0PhyuslumkTuqwFNfN3CQ2cuQw.jpg"
+        }, 
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        }
+    },
+    {
+        "id" : 6,
         "text" : "This movie stinks",
         "score" : 10.0,
         "film" : {
@@ -32,7 +96,71 @@
         }
     },
     {
-        "id" : 1,
+        "id" : 7,
+        "text" : "I will never watch any kind of making-of documentary or behind-the-scenes featurette about Denis Villeneuve’s Dune. I don’t want to know how this film was made. I prefer to believe the extremely convincing illusion that Villeneuve somehow traveled to the year 10,191 and documented the strange civilization he encountered. Dune is full of stylization and visual artistry, but the future it conjures feel so complete and tactile that some segments play like a documentary of the world to come — which is an especially impressive feat since that world involves giant sandworms that consume everything that passes through their sphincter-like maws. Full review at ScreenCrush.",
+        "score" : 9.0,
+        "film" : {
+            "id" : 2,
+            "title" : "Dune",
+            "release_date" : "2021-09-15",
+            "poster_path" : "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+        }, 
+        "user" : {
+            "id" : 2,
+            "username" : "Matt Leblanc",
+            "avatarUrl" : "https://i.imgur.com/pBcut2e.jpeg"
+        }
+    },
+    {
+        "id" : 8,
+        "text" : "not bad if u ever just feel like staring at the color orange and not feeling a single emotion for two and a half hours",
+        "score" : 5.0,
+        "film" : {
+            "id" : 2,
+            "title" : "Dune",
+            "release_date" : "2021-09-15",
+            "poster_path" : "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+        }, 
+        "user" : {
+            "id" : 4,
+            "username" : "cookiejar",
+            "avatarUrl" : "https://i.imgur.com/oW1dGDI.jpeg"
+        }
+    },
+    {
+        "id" : 9,
+        "text" : "I feel like I just ate a perfectly cooked meal by one of my favorite chefs. Just the right number of courses. Delicious.",
+        "score" : 8.0,
+        "film" : {
+            "id" : 4,
+            "title" : "The French Dispatch",
+            "release_date" : "2021-10-21",
+            "poster_path" : "/u0PhyuslumkTuqwFNfN3CQ2cuQw.jpg"
+        }, 
+        "user" : {
+            "id" : 4,
+            "username" : "Patrice O'Neal",
+            "avatarUrl" : "https://i.imgur.com/aOUPaE3.jpeg"
+        }
+    },
+    {
+        "id" : 10,
+        "text": "Interesting...",
+        "score" : 7.0,
+        "film" : {
+            "id" : 4,
+            "title" : "The French Dispatch",
+            "release_date" : "2021-10-21",
+            "poster_path" : "/u0PhyuslumkTuqwFNfN3CQ2cuQw.jpg"
+        }, 
+        "user" : {
+            "id" : 1,
+            "username" : "ak-http",
+            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+        }
+    },
+    {
+        "id" : 11,
         "text" : "This movie stinks",
         "score" : 10.0,
         "film" : {
@@ -48,110 +176,62 @@
         }
     },
     {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
+        "id" : 12,
+        "text" : "I will never watch any kind of making-of documentary or behind-the-scenes featurette about Denis Villeneuve’s Dune. I don’t want to know how this film was made. I prefer to believe the extremely convincing illusion that Villeneuve somehow traveled to the year 10,191 and documented the strange civilization he encountered. Dune is full of stylization and visual artistry, but the future it conjures feel so complete and tactile that some segments play like a documentary of the world to come — which is an especially impressive feat since that world involves giant sandworms that consume everything that passes through their sphincter-like maws. Full review at ScreenCrush.",
+        "score" : 9.0,
         "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
+            "id" : 2,
+            "title" : "Dune",
+            "release_date" : "2021-09-15",
+            "poster_path" : "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
         }, 
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 2,
+            "username" : "Matt Leblanc",
+            "avatarUrl" : "https://i.imgur.com/pBcut2e.jpeg"
         }
     },
     {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
+        "id" : 13,
+        "text" : "not bad if u ever just feel like staring at the color orange and not feeling a single emotion for two and a half hours",
+        "score" : 5.0,
         "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
+            "id" : 2,
+            "title" : "Dune",
+            "release_date" : "2021-09-15",
+            "poster_path" : "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
         }, 
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 3,
+            "username" : "cookiejar",
+            "avatarUrl" : "https://i.imgur.com/oW1dGDI.jpeg"
         }
     },
     {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
+        "id" : 14,
+        "text" : "I feel like I just ate a perfectly cooked meal by one of my favorite chefs. Just the right number of courses. Delicious.",
+        "score" : 8.0,
         "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
+            "id" : 4,
+            "title" : "The French Dispatch",
+            "release_date" : "2021-10-21",
+            "poster_path" : "/u0PhyuslumkTuqwFNfN3CQ2cuQw.jpg"
         }, 
         "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
+            "id" : 4,
+            "username" : "Patrice O'Neal",
+            "avatarUrl" : "https://i.imgur.com/aOUPaE3.jpeg"
         }
     },
     {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
+        "id" : 15,
+        "text": "Interesting...",
+        "score" : 7.0,
         "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
-        }, 
-        "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
-        }
-    },
-    {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
-        "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
-        }, 
-        "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
-        }
-    },    
-    {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
-        "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
-        }, 
-        "user" : {
-            "id" : 1,
-            "username" : "ak-http",
-            "avatarUrl" : "https://i.imgur.com/PJa71Eb.jpeg"
-        }
-    },
-    {
-        "id" : 1,
-        "text" : "This movie stinks",
-        "score" : 10.0,
-        "film" : {
-            "id" : 1,
-            "title" : "The Long Goodbye",
-            "release_date" : "1973-03-07",
-            "poster_path" : "/oBhUK54yBJ0aH6u9zCzSV5iV7OP.jpg"
+            "id" : 4,
+            "title" : "The French Dispatch",
+            "release_date" : "2021-10-21",
+            "poster_path" : "/u0PhyuslumkTuqwFNfN3CQ2cuQw.jpg"
         }, 
         "user" : {
             "id" : 1,

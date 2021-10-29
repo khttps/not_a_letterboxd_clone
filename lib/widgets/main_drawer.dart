@@ -26,32 +26,43 @@ class MainDrawer extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               _DrawerItem(
-                iconData: Icons.layers_sharp,
+                icon: Icons.layers_sharp,
                 label: 'Popular',
                 onTap: () {},
               ),
               _DrawerItem(
-                iconData: Icons.search_sharp,
+                icon: Icons.search_sharp,
                 label: 'Search',
                 onTap: () {},
               ),
               const Divider(color: Palette.darkGrey, height: 0.0),
               _DrawerItem(
-                iconData: MdiIcons.accountLock,
+                icon: MdiIcons.accountLock,
                 label: 'Sign in',
                 onTap: () {},
               ),
               _DrawerItem(
-                iconData: Icons.person_add_sharp,
+                icon: Icons.person_add_sharp,
                 label: 'Create account',
                 onTap: () {},
               ),
               _DrawerItem(
-                iconData: Icons.view_carousel_sharp,
+                icon: Icons.view_carousel_sharp,
                 label: 'Open tour',
                 onTap: () {},
               ),
               const Divider(color: Palette.darkGrey, height: 0.0),
+              const ListTile(
+                leading: Icon(Icons.add, color: Palette.scaffold),
+                title: Text(
+                  '1.0.0(0)',
+                  style: TextStyle(
+                    fontSize: 13.0,
+                    color: Palette.text,
+                    fontWeight: FontWeight.w400,
+                  ),
+                ),
+              )
             ],
           ),
         ),
@@ -61,29 +72,24 @@ class MainDrawer extends StatelessWidget {
 }
 
 class _DrawerItem extends StatelessWidget {
-  final IconData? iconData;
-  final Icon? icon;
+  final IconData icon;
   final String label;
-  final Function()? onTap;
+  final Function() onTap;
   const _DrawerItem({
-    this.iconData,
-    this.icon,
+    required this.icon,
     required this.label,
-    this.onTap,
+    required this.onTap,
     Key? key,
-  })  : assert((iconData == null) ^ (icon == null)),
-        super(key: key);
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ListTile(
       dense: true,
-      leading: iconData == null
-          ? icon
-          : Icon(
-              iconData,
-              color: Palette.border,
-            ),
+      leading: Icon(
+        icon,
+        color: Palette.border,
+      ),
       title: Text(
         label,
         style: const TextStyle(
