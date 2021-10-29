@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:not_a_letterboxd_clone/core/palette.dart';
+import '../../core/palette.dart';
 import '../blocs.dart';
 import 'widgets/review_item.dart';
 import '../../widgets/widgets.dart';

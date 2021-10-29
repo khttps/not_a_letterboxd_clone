@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:not_a_letterboxd_clone/core/palette.dart';
+import '../core/palette.dart';
 
 class LoadingWidget extends StatelessWidget {
   const LoadingWidget({Key? key}) : super(key: key);

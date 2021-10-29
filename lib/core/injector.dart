@@ -11,6 +11,7 @@ void init() {
   //! Bloc
   sl.registerFactory(() => FilmsBloc(repository: sl()));
   sl.registerFactory(() => ReviewsBloc(repository: sl()));
+  sl.registerFactory(() => ListsBloc(repository: sl()));
 
   //! Repository
   sl.registerLazySingleton<BaseFilmRepository>(

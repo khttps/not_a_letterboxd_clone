@@ -17,13 +17,10 @@ class GetFilms implements FilmsEvent {
   bool? get stringify => true;
 }
 
-class GetPagedFilms implements FilmsEvent {
+class GetPagedFilms extends FilmsEvent {
   final int page;
   const GetPagedFilms({required this.page});
 
   @override
   List<Object> get props => [page];
-
-  @override
-  bool? get stringify => true;
 }
